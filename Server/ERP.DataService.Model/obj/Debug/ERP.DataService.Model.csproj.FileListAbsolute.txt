@@ -1,0 +1,626 @@
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csprojResolveAssemblyReference.cache
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll.config
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.pdb
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\EntityFramework.dll
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\EntityFramework.xml
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.dll
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.pdb
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.creatingdbanduserinfotable.resources
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csproj.GenerateResource.Cache
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.userinfotable.resources
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.dll
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Cors.dll
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.dll
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Http.dll
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.xml
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Http.xml
+E:\My Project\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.xml
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.adding.resources
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingmenus.resources
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingpermission.resources
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingforeignkey.resources
+E:\My Project\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrouterpath.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll.config
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\EntityFramework.dll
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.dll
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Cors.dll
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.dll
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Http.dll
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\EntityFramework.xml
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.xml
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Http.xml
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.xml
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.creatingdbanduserinfotable.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.userinfotable.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.adding.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingmenus.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingpermission.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingforeignkey.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrouterpath.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csproj.GenerateResource.Cache
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update1.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingbranchandconfigurationtable.resources
+E:\My Project\ProjectGit\ERP\server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update2.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll.config
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\EntityFramework.dll
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.dll
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\System.Web.Cors.dll
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.dll
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.dll
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\EntityFramework.xml
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.xml
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.xml
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.xml
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.creatingdbanduserinfotable.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.userinfotable.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.adding.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingmenus.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingpermission.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingforeignkey.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrouterpath.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update1.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingbranchandconfigurationtable.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update2.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csproj.GenerateResource.Cache
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addrouterpath.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrolecontrol.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changerole.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingchartofaccount.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.updatechartofaccount.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingvoucher.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingformcontrol.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingusercontroltable.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtypeinusercontroltable.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsubledger.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingdeleteinformcontrol.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changingdeletetocheckbox.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addinginventorysettings.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierpartyandfanufacture.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update3.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update4.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.purchaseitem.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update5.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update6.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update7.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addlotno.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addreason.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingcustomerupdate.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate2.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.Addsellprice.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.removeformater.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeformater.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.partysupplier.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsidemenurouterpath.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addcustomerIdandsupplierId.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update8.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll.config
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.pdb
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.dll
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.dll
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Cors.dll
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.dll
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.dll
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.xml
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.xml
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.xml
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.xml
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csprojResolveAssemblyReference.cache
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.creatingdbanduserinfotable.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.userinfotable.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.adding.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingmenus.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingpermission.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingforeignkey.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrouterpath.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update1.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingbranchandconfigurationtable.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update2.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addrouterpath.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrolecontrol.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changerole.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingchartofaccount.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.updatechartofaccount.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingvoucher.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingformcontrol.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingusercontroltable.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtypeinusercontroltable.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsubledger.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingdeleteinformcontrol.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changingdeletetocheckbox.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addinginventorysettings.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierpartyandfanufacture.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update3.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update4.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.purchaseitem.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update5.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update6.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update7.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addlotno.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addreason.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingcustomerupdate.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate2.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.Addsellprice.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.removeformater.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeformater.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.partysupplier.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsidemenurouterpath.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addcustomerIdandsupplierId.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update8.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csproj.GenerateResource.Cache
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.dll
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changenatpaidamounttonetpayableamount.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addpaidamount.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changenatpaidamounttonetpayableamount.resources
+E:\development_Sumon\POS\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addpaidamount.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll.config
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.pdb
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Cors.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csprojResolveAssemblyReference.cache
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.creatingdbanduserinfotable.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.userinfotable.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.adding.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingmenus.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingpermission.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingforeignkey.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrouterpath.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update1.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingbranchandconfigurationtable.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update2.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addrouterpath.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrolecontrol.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changerole.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingchartofaccount.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.updatechartofaccount.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingvoucher.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingformcontrol.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingusercontroltable.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtypeinusercontroltable.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsubledger.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingdeleteinformcontrol.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changingdeletetocheckbox.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addinginventorysettings.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierpartyandfanufacture.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update3.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update4.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.purchaseitem.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update5.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update6.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update7.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addlotno.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addreason.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingcustomerupdate.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate2.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.Addsellprice.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.removeformater.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeformater.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.partysupplier.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsidemenurouterpath.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addcustomerIdandsupplierId.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update8.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changenatpaidamounttonetpayableamount.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addpaidamount.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csproj.GenerateResource.Cache
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.pdb
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtransactiondetails.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtransactiondetails.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingoffer.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeordertype.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingisFirsttransaction.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingoffer.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeordertype.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingisFirsttransaction.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changecodeformater.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changecodeformater.resources
+E:\My Project\ProjectGit\POS\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeoffersetup.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeoffersetup.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingissingleinoffersetuptable.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changestringlength.resources
+E:\development_Sumon\POS_New\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.altertabletblOfferSetupaddonetomay.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll.config
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.pdb
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Cors.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csprojResolveAssemblyReference.cache
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.creatingdbanduserinfotable.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.userinfotable.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.adding.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingmenus.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingpermission.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingforeignkey.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrouterpath.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update1.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingbranchandconfigurationtable.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update2.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addrouterpath.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrolecontrol.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changerole.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingchartofaccount.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.updatechartofaccount.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingvoucher.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingformcontrol.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingusercontroltable.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtypeinusercontroltable.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsubledger.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingdeleteinformcontrol.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changingdeletetocheckbox.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addinginventorysettings.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierpartyandfanufacture.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update3.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update4.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.purchaseitem.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update5.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update6.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update7.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addlotno.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addreason.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingcustomerupdate.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate2.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.Addsellprice.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.removeformater.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeformater.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.partysupplier.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsidemenurouterpath.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addcustomerIdandsupplierId.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update8.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changenatpaidamounttonetpayableamount.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addpaidamount.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtransactiondetails.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingoffer.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeordertype.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingisFirsttransaction.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changecodeformater.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeoffersetup.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingissingleinoffersetuptable.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changestringlength.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.altertabletblOfferSetupaddonetomay.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csproj.GenerateResource.Cache
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.pdb
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddingEmployeeGrade.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeGuidToString.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeGuidToStringAllForignKey.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addManyToOneInOfferSetup.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeDataTypeDoubleToBool.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addindTable.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addInheritedItem.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeDataTypeDouble.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeDataTypeDouble2.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeGradeStepSalaryItemtable.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeGradeStepSalaryItem.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddIsReadOnly.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll.config
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Cors.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.creatingdbanduserinfotable.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.userinfotable.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.adding.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingmenus.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingpermission.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingforeignkey.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrouterpath.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update1.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingbranchandconfigurationtable.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update2.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addrouterpath.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrolecontrol.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changerole.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingchartofaccount.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.updatechartofaccount.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingvoucher.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingformcontrol.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingusercontroltable.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtypeinusercontroltable.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsubledger.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingdeleteinformcontrol.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changingdeletetocheckbox.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addinginventorysettings.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierpartyandfanufacture.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update3.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update4.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.purchaseitem.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update5.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update6.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update7.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addlotno.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addreason.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingcustomerupdate.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate2.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.Addsellprice.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.removeformater.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeformater.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.partysupplier.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsidemenurouterpath.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addcustomerIdandsupplierId.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update8.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changenatpaidamounttonetpayableamount.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addpaidamount.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtransactiondetails.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingoffer.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeordertype.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingisFirsttransaction.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changecodeformater.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeoffersetup.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingissingleinoffersetuptable.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changestringlength.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.altertabletblOfferSetupaddonetomay.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddingEmployeeGrade.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeGuidToString.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeGuidToStringAllForignKey.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addManyToOneInOfferSetup.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeDataTypeDoubleToBool.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addindTable.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addInheritedItem.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeDataTypeDouble.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeDataTypeDouble2.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeGradeStepSalaryItemtable.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeGradeStepSalaryItem.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddIsReadOnly.resources
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csproj.GenerateResource.Cache
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddIsreadOnlyIsAutoCode.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddIsreadOnlyIsAutoCode.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.createItemNameTable.resources
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeOfferModule.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll.config
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.pdb
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Cors.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csprojResolveAssemblyReference.cache
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.creatingdbanduserinfotable.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.userinfotable.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.adding.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingmenus.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingpermission.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingforeignkey.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrouterpath.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update1.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingbranchandconfigurationtable.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update2.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addrouterpath.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrolecontrol.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changerole.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingchartofaccount.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.updatechartofaccount.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingvoucher.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingformcontrol.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingusercontroltable.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtypeinusercontroltable.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsubledger.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingdeleteinformcontrol.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changingdeletetocheckbox.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addinginventorysettings.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierpartyandfanufacture.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update3.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update4.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.purchaseitem.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update5.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update6.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update7.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addlotno.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addreason.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingcustomerupdate.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate2.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.Addsellprice.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.removeformater.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeformater.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.partysupplier.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsidemenurouterpath.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addcustomerIdandsupplierId.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update8.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changenatpaidamounttonetpayableamount.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addpaidamount.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtransactiondetails.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingoffer.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeordertype.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingisFirsttransaction.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changecodeformater.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeoffersetup.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingissingleinoffersetuptable.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changestringlength.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.altertabletblOfferSetupaddonetomay.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddingEmployeeGrade.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeGuidToString.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeGuidToStringAllForignKey.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addManyToOneInOfferSetup.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeDataTypeDoubleToBool.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addindTable.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addInheritedItem.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeDataTypeDouble.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeDataTypeDouble2.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeGradeStepSalaryItemtable.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeGradeStepSalaryItem.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddIsReadOnly.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddIsreadOnlyIsAutoCode.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.createItemNameTable.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeOfferModule.resources
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csproj.GenerateResource.Cache
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll.config
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\EntityFramework.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\System.Web.Cors.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\EntityFramework.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\Newtonsoft.Json.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\System.Net.Http.Formatting.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\bin\Debug\System.Web.Http.Cors.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.creatingdbanduserinfotable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.userinfotable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.adding.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingmenus.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingpermission.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingforeignkey.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrouterpath.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update1.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingbranchandconfigurationtable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update2.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addrouterpath.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingrolecontrol.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changerole.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingchartofaccount.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.updatechartofaccount.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingvoucher.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingformcontrol.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingusercontroltable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtypeinusercontroltable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsubledger.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingdeleteinformcontrol.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changingdeletetocheckbox.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addinginventorysettings.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierpartyandfanufacture.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update3.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update4.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.purchaseitem.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update5.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update6.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update7.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addlotno.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addreason.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingcustomerupdate.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsupplierupdate2.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.Addsellprice.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.removeformater.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeformater.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.partysupplier.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingsidemenurouterpath.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addcustomerIdandsupplierId.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.update8.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changenatpaidamounttonetpayableamount.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addpaidamount.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingtransactiondetails.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingoffer.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeordertype.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingisFirsttransaction.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changecodeformater.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeoffersetup.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addingissingleinoffersetuptable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changestringlength.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.altertabletblOfferSetupaddonetomay.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddingEmployeeGrade.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeGuidToString.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeGuidToStringAllForignKey.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addManyToOneInOfferSetup.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeDataTypeDoubleToBool.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addindTable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addInheritedItem.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeDataTypeDouble.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeDataTypeDouble2.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeGradeStepSalaryItemtable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeGradeStepSalaryItem.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddIsReadOnly.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.AddIsreadOnlyIsAutoCode.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.createItemNameTable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.ChangeOfferModule.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.csproj.GenerateResource.Cache
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changeoffertable.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.changedatatype.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addwholesale.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addsettingdate.resources
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERP.DataService.Model\obj\Debug\ERP.DataService.Model.Migrations.addsettingMethod.resources

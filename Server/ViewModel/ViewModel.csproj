@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F314BE7-15AF-435D-B193-B5107BC237A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ViewModel</RootNamespace>
+    <AssemblyName>ViewModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Common\DuplicateCheck.cs" />
+    <Compile Include="Model\Common\ItemName.cs" />
+    <Compile Include="Model\Finance\AccountDetails.cs" />
+    <Compile Include="Model\Finance\AccountInfo.cs" />
+    <Compile Include="Model\Finance\AccountOpeningInfo.cs" />
+    <Compile Include="Model\Finance\AccountOpeningTableView.cs" />
+    <Compile Include="Model\Finance\AccountParentChildRelationInfo.cs" />
+    <Compile Include="Model\Common\BranchInfo.cs" />
+    <Compile Include="Model\HrPayroll\DepartmentInfo.cs" />
+    <Compile Include="Model\HrPayroll\DesignationInfo.cs" />
+    <Compile Include="Model\HrPayroll\EducationLevelInfo.cs" />
+    <Compile Include="Model\HrPayroll\EmployeeGradeInfo.cs" />
+    <Compile Include="Model\HrPayroll\EmployeeSubGradeInfo.cs" />
+    <Compile Include="Model\HrPayroll\GradeStepSalaryItemInfo.cs" />
+    <Compile Include="Model\HrPayroll\LeaveTypeInfo.cs" />
+    <Compile Include="Model\HrPayroll\OccupationInfo.cs" />
+    <Compile Include="Model\HrPayroll\SalaryItemInfo.cs" />
+    <Compile Include="Model\Inventory\CategoryInfo.cs" />
+    <Compile Include="Model\Common\CodeFormaterInfo.cs" />
+    <Compile Include="Model\Common\ColumnInfo.cs" />
+    <Compile Include="Model\Inventory\CustomerInfo.cs" />
+    <Compile Include="Model\Inventory\CustomerOfferInfo.cs" />
+    <Compile Include="Model\Inventory\CustomerSupplierTransactionDetailsInfo.cs" />
+    <Compile Include="Model\Common\FormInfoView.cs" />
+    <Compile Include="Model\Inventory\FreeProductInfo.cs" />
+    <Compile Include="Model\Inventory\GroupItemInfo.cs" />
+    <Compile Include="Model\Common\ItemListInfo.cs" />
+    <Compile Include="Model\Inventory\InventoryItemInfo.cs" />
+    <Compile Include="Model\Inventory\InventoryLocationInfo.cs" />
+    <Compile Include="Model\Inventory\ItemTransactionInfo.cs" />
+    <Compile Include="Model\Common\ItemView.cs" />
+    <Compile Include="Model\Common\Login.cs" />
+    <Compile Include="Model\Inventory\ItemTree.cs" />
+    <Compile Include="Model\Inventory\ManufactureInfo.cs" />
+    <Compile Include="Model\Common\MenuView.cs" />
+    <Compile Include="Model\Common\ModuleView.cs" />
+    <Compile Include="Model\Inventory\OfferInfo.cs" />
+    <Compile Include="Model\Inventory\OfferItemInfo.cs" />
+    <Compile Include="Model\Inventory\ProductOfferMapInfo.cs" />
+    <Compile Include="Model\Inventory\PartyInfo.cs" />
+    <Compile Include="Model\Inventory\PartyTransactionInfo.cs" />
+    <Compile Include="Model\Common\PermissionTree.cs" />
+    <Compile Include="Model\Common\PermissionView.cs" />
+    <Compile Include="Model\Inventory\InventoryGroupListInfo.cs" />
+    <Compile Include="Model\Administration\RoleControlView.cs" />
+    <Compile Include="Model\Administration\RoleInfo.cs" />
+    <Compile Include="Model\Administration\RolePermissionDataInfo.cs" />
+    <Compile Include="Model\Administration\RolePermissionInfo.cs" />
+    <Compile Include="Model\Common\SelectListItem.cs" />
+    <Compile Include="Model\Inventory\SettingSellPriceInfo.cs" />
+    <Compile Include="Model\Inventory\SubCategoryInfo.cs" />
+    <Compile Include="Model\Finance\SubledgerInfo.cs" />
+    <Compile Include="Model\Finance\SubledgerTransactionInfo.cs" />
+    <Compile Include="Model\Common\SubMenuView.cs" />
+    <Compile Include="Model\Inventory\SupplierInfo.cs" />
+    <Compile Include="Model\Inventory\SupplierTransactionInfo.cs" />
+    <Compile Include="Model\Inventory\UnitInfo.cs" />
+    <Compile Include="Model\Common\UserFormControlInfo.cs" />
+    <Compile Include="Model\Administration\UserInfoView.cs" />
+    <Compile Include="Model\Finance\VoucherDetailInfo.cs" />
+    <Compile Include="Model\Finance\VoucherInfo.cs" />
+    <Compile Include="Model\Validation\Accounts\SubledgerValidation.cs" />
+    <Compile Include="Model\Validation\HrPayroll\DepartmentValidation.cs" />
+    <Compile Include="Model\Validation\HrPayroll\DesignationValidation.cs" />
+    <Compile Include="Model\Validation\HrPayroll\EducationLevelValidation.cs" />
+    <Compile Include="Model\Validation\HrPayroll\GradeValidation.cs" />
+    <Compile Include="Model\Validation\HrPayroll\LeaveTypeValidation.cs" />
+    <Compile Include="Model\Validation\HrPayroll\OccupationValidation.cs" />
+    <Compile Include="Model\Validation\HrPayroll\SalaryItemValidation.cs" />
+    <Compile Include="Model\Validation\HrPayroll\SubGradeValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\CustomerTransactionValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\LocationValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\OfferValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\UnitValidation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\Validation\Inventory\CategoryValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\CustomerValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\InventoryItemValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\ItemPurchaseValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\ManufactureValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\SubcategoryValidation.cs" />
+    <Compile Include="Model\Validation\Inventory\SupplierValidation.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

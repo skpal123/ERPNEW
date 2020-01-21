@@ -1,0 +1,154 @@
+namespace ERP.DataService.Model.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class ChangeGuidToStringAllForignKey : DbMigration
+    {
+        public override void Up()
+        {
+            AlterColumn("dbo.tblAccountOpening", "Branch_Id", c => c.String(maxLength: 100));
+            AlterColumn("dbo.tblAccountOpening", "Account_Id", c => c.String(maxLength: 100));
+            AlterColumn("dbo.tblAccountParentChildRelation", "ParentAccount_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblAccountParentChildRelation", "ChildAccount_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblAccountParentChildRelation", "Branch_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblAccount", "BranchId", c => c.String(maxLength: 100));
+            AlterColumn("dbo.tblAccount", "Corporate_Id", c => c.String(maxLength: 100));
+            AlterColumn("dbo.tblAccount", "ControlLevel_Id", c => c.String(maxLength: 100));
+            AlterColumn("dbo.ApplicatonAccessLogs", "User_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.ApplicatonAccessLogs", "Session_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblCustomer", "Ledger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblCustomer", "SubLedger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblCustomerSupplierTransactionDetail", "Group_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblCustomerSupplierTransactionDetail", "CustomerTransaction_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblCustomerSupplierTransactionDetail", "SupplierTransaction_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.EmployeeSubGrade", "Grade_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.GradeStepSalaryItem", "SalaryItem_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.GradeStepSalaryItem", "ComparatorItem_id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.GradeStepSalaryItem", "Grade_id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.GradeStepSalaryItem", "GradeStep_id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.GradeStepSalaryItem", "Salary_id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblGroupItem", "Group_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblGroupItem", "Supplier_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblGroupItem", "Party_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblGroupItem", "Customer_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblGroupItem", "Approver_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblGroupItem", "Ledger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblGroupItem", "SubLedger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblInventoryItem", "Category_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblInventoryItem", "SubCategory_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblInventoryItem", "UnitId", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblInventoryItem", "Ledger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblInventoryItem", "SubLedger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblItemTransaction", "Group_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblItemTransaction", "Item_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblItemTransaction", "Location_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.Offer", "ValuableCustomerType_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.Offer", "OfferSetup_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblOfferSetup", "Product_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblOfferSetup", "FreeProduct_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblParty", "Ledger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblParty", "SubLedger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblPartyTransaction", "Group_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblPartyTransaction", "Customer_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblPartyTransaction", "Ledger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblPartyTransaction", "SubLedger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.PasswordChangeHistories", "Branch_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSettingSellPrice", "Item_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSubCategory", "Category_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSubledgerOpening", "Branch_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSubledgerOpening", "Account_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSubledgerOpening", "Subledger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSubledger", "Account_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSubledgerTransaction", "Voucher_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSubledgerTransaction", "Voucher_Detail_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSubledgerTransaction", "Account_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSubledgerTransaction", "Subledger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSupplier", "Ledger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSupplier", "SubLedger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSupplierTransaction", "Group_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSupplierTransaction", "Supplier_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSupplierTransaction", "Ledger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblSupplierTransaction", "SubLedger_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblVoucherDetails", "Branch_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblVoucherDetails", "Voucher_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblVoucherDetails", "Account_Id", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblVoucher", "PreparedBy", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblVoucher", "ApprovedBy", c => c.String(maxLength: 100, unicode: false));
+            AlterColumn("dbo.tblVoucher", "CheckedBy", c => c.String(maxLength: 100, unicode: false));
+        }
+        
+        public override void Down()
+        {
+            AlterColumn("dbo.tblVoucher", "CheckedBy", c => c.String());
+            AlterColumn("dbo.tblVoucher", "ApprovedBy", c => c.String());
+            AlterColumn("dbo.tblVoucher", "PreparedBy", c => c.String());
+            AlterColumn("dbo.tblVoucherDetails", "Account_Id", c => c.String());
+            AlterColumn("dbo.tblVoucherDetails", "Voucher_Id", c => c.String());
+            AlterColumn("dbo.tblVoucherDetails", "Branch_Id", c => c.String());
+            AlterColumn("dbo.tblSupplierTransaction", "SubLedger_Id", c => c.String());
+            AlterColumn("dbo.tblSupplierTransaction", "Ledger_Id", c => c.String());
+            AlterColumn("dbo.tblSupplierTransaction", "Supplier_Id", c => c.String());
+            AlterColumn("dbo.tblSupplierTransaction", "Group_Id", c => c.String());
+            AlterColumn("dbo.tblSupplier", "SubLedger_Id", c => c.String());
+            AlterColumn("dbo.tblSupplier", "Ledger_Id", c => c.String());
+            AlterColumn("dbo.tblSubledgerTransaction", "Subledger_Id", c => c.String());
+            AlterColumn("dbo.tblSubledgerTransaction", "Account_Id", c => c.String());
+            AlterColumn("dbo.tblSubledgerTransaction", "Voucher_Detail_Id", c => c.String());
+            AlterColumn("dbo.tblSubledgerTransaction", "Voucher_Id", c => c.String());
+            AlterColumn("dbo.tblSubledger", "Account_Id", c => c.String());
+            AlterColumn("dbo.tblSubledgerOpening", "Subledger_Id", c => c.String());
+            AlterColumn("dbo.tblSubledgerOpening", "Account_Id", c => c.String());
+            AlterColumn("dbo.tblSubledgerOpening", "Branch_Id", c => c.String());
+            AlterColumn("dbo.tblSubCategory", "Category_Id", c => c.String());
+            AlterColumn("dbo.tblSettingSellPrice", "Item_Id", c => c.String());
+            AlterColumn("dbo.PasswordChangeHistories", "Branch_Id", c => c.String());
+            AlterColumn("dbo.tblPartyTransaction", "SubLedger_Id", c => c.String());
+            AlterColumn("dbo.tblPartyTransaction", "Ledger_Id", c => c.String());
+            AlterColumn("dbo.tblPartyTransaction", "Customer_Id", c => c.String());
+            AlterColumn("dbo.tblPartyTransaction", "Group_Id", c => c.String());
+            AlterColumn("dbo.tblParty", "SubLedger_Id", c => c.String());
+            AlterColumn("dbo.tblParty", "Ledger_Id", c => c.String());
+            AlterColumn("dbo.tblOfferSetup", "FreeProduct_Id", c => c.String());
+            AlterColumn("dbo.tblOfferSetup", "Product_Id", c => c.String());
+            AlterColumn("dbo.Offer", "OfferSetup_Id", c => c.String());
+            AlterColumn("dbo.Offer", "ValuableCustomerType_Id", c => c.String());
+            AlterColumn("dbo.tblItemTransaction", "Location_Id", c => c.String());
+            AlterColumn("dbo.tblItemTransaction", "Item_Id", c => c.String());
+            AlterColumn("dbo.tblItemTransaction", "Group_Id", c => c.String());
+            AlterColumn("dbo.tblInventoryItem", "SubLedger_Id", c => c.String());
+            AlterColumn("dbo.tblInventoryItem", "Ledger_Id", c => c.String());
+            AlterColumn("dbo.tblInventoryItem", "UnitId", c => c.String());
+            AlterColumn("dbo.tblInventoryItem", "SubCategory_Id", c => c.String());
+            AlterColumn("dbo.tblInventoryItem", "Category_Id", c => c.String());
+            AlterColumn("dbo.tblGroupItem", "SubLedger_Id", c => c.String());
+            AlterColumn("dbo.tblGroupItem", "Ledger_Id", c => c.String());
+            AlterColumn("dbo.tblGroupItem", "Approver_Id", c => c.String());
+            AlterColumn("dbo.tblGroupItem", "Customer_Id", c => c.String());
+            AlterColumn("dbo.tblGroupItem", "Party_Id", c => c.String());
+            AlterColumn("dbo.tblGroupItem", "Supplier_Id", c => c.String());
+            AlterColumn("dbo.tblGroupItem", "Group_Id", c => c.String());
+            AlterColumn("dbo.GradeStepSalaryItem", "Salary_id", c => c.String());
+            AlterColumn("dbo.GradeStepSalaryItem", "GradeStep_id", c => c.String());
+            AlterColumn("dbo.GradeStepSalaryItem", "Grade_id", c => c.String());
+            AlterColumn("dbo.GradeStepSalaryItem", "ComparatorItem_id", c => c.String());
+            AlterColumn("dbo.GradeStepSalaryItem", "SalaryItem_Id", c => c.String());
+            AlterColumn("dbo.EmployeeSubGrade", "Grade_Id", c => c.String());
+            AlterColumn("dbo.tblCustomerSupplierTransactionDetail", "SupplierTransaction_Id", c => c.String());
+            AlterColumn("dbo.tblCustomerSupplierTransactionDetail", "CustomerTransaction_Id", c => c.String());
+            AlterColumn("dbo.tblCustomerSupplierTransactionDetail", "Group_Id", c => c.String());
+            AlterColumn("dbo.tblCustomer", "SubLedger_Id", c => c.String());
+            AlterColumn("dbo.tblCustomer", "Ledger_Id", c => c.String());
+            AlterColumn("dbo.ApplicatonAccessLogs", "Session_Id", c => c.String());
+            AlterColumn("dbo.ApplicatonAccessLogs", "User_Id", c => c.String());
+            AlterColumn("dbo.tblAccount", "ControlLevel_Id", c => c.String());
+            AlterColumn("dbo.tblAccount", "Corporate_Id", c => c.String());
+            AlterColumn("dbo.tblAccount", "BranchId", c => c.String());
+            AlterColumn("dbo.tblAccountParentChildRelation", "Branch_Id", c => c.String());
+            AlterColumn("dbo.tblAccountParentChildRelation", "ChildAccount_Id", c => c.String());
+            AlterColumn("dbo.tblAccountParentChildRelation", "ParentAccount_Id", c => c.String());
+            AlterColumn("dbo.tblAccountOpening", "Account_Id", c => c.String());
+            AlterColumn("dbo.tblAccountOpening", "Branch_Id", c => c.String());
+        }
+    }
+}

@@ -1,0 +1,448 @@
+E:\My Project\ERP\server\ERPWebApiService\bin\ERPWebApiService.dll.config
+E:\My Project\ERP\server\ERPWebApiService\bin\ERPWebApiService.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\ERPWebApiService.pdb
+E:\My Project\ERP\server\ERPWebApiService\bin\Antlr3.Runtime.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\Microsoft.Web.Infrastructure.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\Newtonsoft.Json.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Net.Http.Formatting.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Cors.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Helpers.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Http.Cors.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Http.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Http.WebHost.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Mvc.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Optimization.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Razor.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.WebPages.Deployment.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.WebPages.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.WebPages.Razor.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\WebGrease.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\Newtonsoft.Json.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Net.Http.Formatting.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Http.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Http.Cors.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Helpers.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Http.WebHost.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Mvc.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Optimization.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.Razor.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.WebPages.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.WebPages.Deployment.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\System.Web.WebPages.Razor.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\Antlr3.Runtime.pdb
+E:\My Project\ERP\server\ERPWebApiService\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\My Project\ERP\server\ERPWebApiService\obj\Debug\ERPWebApiService.dll
+E:\My Project\ERP\server\ERPWebApiService\obj\Debug\ERPWebApiService.pdb
+E:\My Project\ERP\server\ERPWebApiService\bin\EntityFramework.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\EntityFramework.SqlServer.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\ERP.DataService.Model.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\ERP.DataService.Model.pdb
+E:\My Project\ERP\server\ERPWebApiService\bin\EntityFramework.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\EntityFramework.SqlServer.xml
+E:\My Project\ERP\server\ERPWebApiService\bin\ViewModel.dll
+E:\My Project\ERP\server\ERPWebApiService\bin\ViewModel.pdb
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\ERPWebApiService.dll.config
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\ERPWebApiService.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\ERPWebApiService.pdb
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\Antlr3.Runtime.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\EntityFramework.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\EntityFramework.SqlServer.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\Microsoft.Web.Infrastructure.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\Newtonsoft.Json.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Net.Http.Formatting.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Cors.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Helpers.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Http.Cors.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Http.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Http.WebHost.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Mvc.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Optimization.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Razor.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.WebPages.Deployment.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.WebPages.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.WebPages.Razor.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\ViewModel.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\WebGrease.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\ViewModel.pdb
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\EntityFramework.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\EntityFramework.SqlServer.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\Newtonsoft.Json.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Net.Http.Formatting.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Http.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Http.Cors.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Helpers.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Http.WebHost.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Mvc.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Optimization.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.Razor.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.WebPages.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.WebPages.Deployment.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\System.Web.WebPages.Razor.xml
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\bin\Antlr3.Runtime.pdb
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\obj\Debug\ERPWebApiService.dll
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\obj\Debug\ERPWebApiService.pdb
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\obj\Debug\RdlCompile.cache
+E:\My Project\ProjectGit\ERP\server\ERPWebApiService\obj\Debug\RdlCompile.compiled
+E:\My Project\ProjectGit\POS\Server\POS\bin\ERPWebApiService.dll.config
+E:\My Project\ProjectGit\POS\Server\POS\bin\ERPWebApiService.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\ERPWebApiService.pdb
+E:\My Project\ProjectGit\POS\Server\POS\bin\Antlr3.Runtime.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\EntityFramework.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\EntityFramework.SqlServer.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\Microsoft.Web.Infrastructure.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\Newtonsoft.Json.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Net.Http.Formatting.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Cors.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Helpers.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Http.Cors.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Http.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Http.WebHost.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Mvc.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Optimization.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Razor.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.WebPages.Deployment.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.WebPages.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.WebPages.Razor.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\ViewModel.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\WebGrease.dll
+E:\My Project\ProjectGit\POS\Server\POS\bin\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\POS\Server\POS\bin\ViewModel.pdb
+E:\My Project\ProjectGit\POS\Server\POS\bin\EntityFramework.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\EntityFramework.SqlServer.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\Newtonsoft.Json.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Net.Http.Formatting.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Http.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Http.Cors.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Helpers.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Http.WebHost.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Mvc.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Optimization.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.Razor.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.WebPages.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.WebPages.Deployment.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\System.Web.WebPages.Razor.xml
+E:\My Project\ProjectGit\POS\Server\POS\bin\Antlr3.Runtime.pdb
+E:\My Project\ProjectGit\POS\Server\POS\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\POS\Server\POS\obj\Debug\RdlCompile.cache
+E:\My Project\ProjectGit\POS\Server\POS\obj\Debug\RdlCompile.compiled
+E:\My Project\ProjectGit\POS\Server\POS\obj\Debug\ERPWebApiService.dll
+E:\My Project\ProjectGit\POS\Server\POS\obj\Debug\ERPWebApiService.pdb
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\ERPWebApiService.dll.config
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\ERPWebApiService.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\ERPWebApiService.pdb
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\Antlr3.Runtime.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\EntityFramework.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\EntityFramework.SqlServer.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\Microsoft.Web.Infrastructure.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\Newtonsoft.Json.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Net.Http.Formatting.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Cors.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Helpers.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Http.Cors.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Http.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Http.WebHost.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Mvc.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Optimization.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Razor.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.WebPages.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\ViewModel.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\WebGrease.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\ViewModel.pdb
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\EntityFramework.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\EntityFramework.SqlServer.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\Newtonsoft.Json.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Net.Http.Formatting.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Http.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Http.Cors.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Helpers.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Http.WebHost.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Mvc.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Optimization.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.Razor.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.WebPages.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.xml
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\bin\Antlr3.Runtime.pdb
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\obj\Debug\RdlCompile.cache
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\obj\Debug\RdlCompile.compiled
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\obj\Debug\ERPWebApiService.dll
+E:\My Project\ProjectGit\POS\Server\ERPWebApiService\obj\Debug\ERPWebApiService.pdb
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll.config
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.pdb
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\EntityFramework.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\Microsoft.Web.Infrastructure.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Cors.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Http.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\ViewModel.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\WebGrease.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.pdb
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\ViewModel.pdb
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\EntityFramework.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Http.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.xml
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.pdb
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.cache
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.compiled
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.dll
+E:\development_Sumon\POS\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.pdb
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll.config
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.pdb
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\EntityFramework.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\Microsoft.Web.Infrastructure.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Cors.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Http.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\ViewModel.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\WebGrease.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.pdb
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\ViewModel.pdb
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\EntityFramework.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Http.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.xml
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.pdb
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.cache
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.compiled
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.dll
+E:\development_Sumon\POS_New\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.pdb
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.cache
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.compiled
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.pdb
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll.config
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.pdb
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\EntityFramework.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\Microsoft.Web.Infrastructure.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Cors.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Http.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\ViewModel.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\WebGrease.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.pdb
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\ViewModel.pdb
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\EntityFramework.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Http.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.xml
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.pdb
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.cache
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.compiled
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll.config
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.pdb
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\EntityFramework.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\Microsoft.Web.Infrastructure.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Cors.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Http.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\ViewModel.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\WebGrease.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\ViewModel.pdb
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\EntityFramework.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Http.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.xml
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.pdb
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.pdb
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll.config
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\ERPWebApiService.pdb
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\EntityFramework.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\Microsoft.Web.Infrastructure.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Cors.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Http.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\ViewModel.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\WebGrease.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\ERP.DataService.Model.pdb
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\ViewModel.pdb
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\EntityFramework.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\EntityFramework.SqlServer.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\Newtonsoft.Json.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Net.Http.Formatting.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Http.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Http.Cors.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Helpers.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Http.WebHost.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Mvc.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Optimization.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.Razor.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.xml
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\bin\Antlr3.Runtime.pdb
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.cache
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\obj\Debug\RdlCompile.compiled
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ERPWebApiService\obj\Debug\ERPWebApiService.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\ERPWebApiService.dll.config
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\ERPWebApiService.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\ERPWebApiService.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\Antlr3.Runtime.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\EntityFramework.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\EntityFramework.SqlServer.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\ERP.DataService.Model.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\Microsoft.Web.Infrastructure.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\Newtonsoft.Json.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Net.Http.Formatting.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Cors.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Helpers.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Http.Cors.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Http.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Http.WebHost.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Mvc.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Optimization.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Razor.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.WebPages.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\ViewModel.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\WebGrease.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\ERP.DataService.Model.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\ViewModel.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\EntityFramework.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\EntityFramework.SqlServer.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\Newtonsoft.Json.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Net.Http.Formatting.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Http.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Http.Cors.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Helpers.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Http.WebHost.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Mvc.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Optimization.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.Razor.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.WebPages.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.WebPages.Deployment.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\System.Web.WebPages.Razor.xml
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\bin\Antlr3.Runtime.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\obj\Debug\ERPWebApiService.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\obj\Debug\RdlCompile.cache
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\obj\Debug\RdlCompile.compiled
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\obj\Debug\ERPWebApiService.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ERPWebApiService\obj\Debug\ERPWebApiService.pdb

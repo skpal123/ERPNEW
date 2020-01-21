@@ -1,0 +1,45 @@
+E:\My Project\ERP\server\ViewModel\bin\Debug\ViewModel.dll
+E:\My Project\ERP\server\ViewModel\bin\Debug\ViewModel.pdb
+E:\My Project\ERP\server\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+E:\My Project\ERP\server\ViewModel\obj\Debug\ViewModel.dll
+E:\My Project\ERP\server\ViewModel\obj\Debug\ViewModel.pdb
+E:\My Project\ProjectGit\ERP\server\ViewModel\bin\Debug\ViewModel.dll
+E:\My Project\ProjectGit\ERP\server\ViewModel\bin\Debug\ViewModel.pdb
+E:\My Project\ProjectGit\ERP\server\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\ERP\server\ViewModel\obj\Debug\ViewModel.dll
+E:\My Project\ProjectGit\ERP\server\ViewModel\obj\Debug\ViewModel.pdb
+E:\My Project\ProjectGit\POS\Server\ViewModel\bin\Debug\ViewModel.dll
+E:\My Project\ProjectGit\POS\Server\ViewModel\bin\Debug\ViewModel.pdb
+E:\My Project\ProjectGit\POS\Server\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\POS\Server\ViewModel\obj\Debug\ViewModel.dll
+E:\My Project\ProjectGit\POS\Server\ViewModel\obj\Debug\ViewModel.pdb
+E:\development_Sumon\POS\POS-new\Server\ViewModel\bin\Debug\ViewModel.dll
+E:\development_Sumon\POS\POS-new\Server\ViewModel\bin\Debug\ViewModel.pdb
+E:\development_Sumon\POS\POS-new\Server\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+E:\development_Sumon\POS\POS-new\Server\ViewModel\obj\Debug\ViewModel.dll
+E:\development_Sumon\POS\POS-new\Server\ViewModel\obj\Debug\ViewModel.pdb
+E:\development_Sumon\POS_New\POS-new\Server\ViewModel\bin\Debug\ViewModel.dll
+E:\development_Sumon\POS_New\POS-new\Server\ViewModel\bin\Debug\ViewModel.pdb
+E:\development_Sumon\POS_New\POS-new\Server\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+E:\development_Sumon\POS_New\POS-new\Server\ViewModel\obj\Debug\ViewModel.dll
+E:\development_Sumon\POS_New\POS-new\Server\ViewModel\obj\Debug\ViewModel.pdb
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ViewModel\bin\Debug\ViewModel.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ViewModel\bin\Debug\ViewModel.pdb
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ViewModel\obj\Debug\ViewModel.dll
+E:\development_Sumon\SomanPd\ERP\POS-new\Server\ViewModel\obj\Debug\ViewModel.pdb
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ViewModel\bin\Debug\ViewModel.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ViewModel\bin\Debug\ViewModel.pdb
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ViewModel\obj\Debug\ViewModel.dll
+E:\My Project\ProjectGit\POS_NEW\POS-new\Server\ViewModel\obj\Debug\ViewModel.pdb
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ViewModel\bin\Debug\ViewModel.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ViewModel\bin\Debug\ViewModel.pdb
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ViewModel\obj\Debug\ViewModel.dll
+E:\development_Sumon\SomanPd\desktop\POS-new\Server\ViewModel\obj\Debug\ViewModel.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ViewModel\bin\Debug\ViewModel.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ViewModel\bin\Debug\ViewModel.pdb
+E:\My Project\ProjectGit\ERP-Desktop\Server\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+E:\My Project\ProjectGit\ERP-Desktop\Server\ViewModel\obj\Debug\ViewModel.dll
+E:\My Project\ProjectGit\ERP-Desktop\Server\ViewModel\obj\Debug\ViewModel.pdb

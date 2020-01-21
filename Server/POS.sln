@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.DataService.Model", "ERP.DataService.Model\ERP.DataService.Model.csproj", "{E6947A39-0CB7-4D0D-874F-E7010B2EDA0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{1F314BE7-15AF-435D-B193-B5107BC237A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8869014A-2330-4B7E-B7B1-336BE43E461B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPWebApiService", "ERPWebApiService\ERPWebApiService.csproj", "{A2040126-50E9-47B4-894D-6EC35C6D2229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6947A39-0CB7-4D0D-874F-E7010B2EDA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6947A39-0CB7-4D0D-874F-E7010B2EDA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6947A39-0CB7-4D0D-874F-E7010B2EDA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6947A39-0CB7-4D0D-874F-E7010B2EDA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F314BE7-15AF-435D-B193-B5107BC237A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F314BE7-15AF-435D-B193-B5107BC237A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F314BE7-15AF-435D-B193-B5107BC237A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F314BE7-15AF-435D-B193-B5107BC237A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2040126-50E9-47B4-894D-6EC35C6D2229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2040126-50E9-47B4-894D-6EC35C6D2229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2040126-50E9-47B4-894D-6EC35C6D2229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2040126-50E9-47B4-894D-6EC35C6D2229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

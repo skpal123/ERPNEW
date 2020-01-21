@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6947A39-0CB7-4D0D-874F-E7010B2EDA0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ERP.DataService.Model</RootNamespace>
+    <AssemblyName>ERP.DataService.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Cors">
+      <HintPath>packages\Microsoft.AspNet.Cors.5.2.6\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors">
+      <HintPath>packages\Microsoft.AspNet.WebApi.Cors.5.2.6\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Migrations\201808291653552_creating db and userinfo table.cs" />
+    <Compile Include="Migrations\201808291653552_creating db and userinfo table.Designer.cs">
+      <DependentUpon>201808291653552_creating db and userinfo table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808291700169_userinfo table.cs" />
+    <Compile Include="Migrations\201808291700169_userinfo table.Designer.cs">
+      <DependentUpon>201808291700169_userinfo table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809091547212_adding.cs" />
+    <Compile Include="Migrations\201809091547212_adding.Designer.cs">
+      <DependentUpon>201809091547212_adding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809091551032_adding menus.cs" />
+    <Compile Include="Migrations\201809091551032_adding menus.Designer.cs">
+      <DependentUpon>201809091551032_adding menus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809101648361_adding permission.cs" />
+    <Compile Include="Migrations\201809101648361_adding permission.Designer.cs">
+      <DependentUpon>201809101648361_adding permission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809261427206_adding foreign key.cs" />
+    <Compile Include="Migrations\201809261427206_adding foreign key.Designer.cs">
+      <DependentUpon>201809261427206_adding foreign key.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809261432481_adding router path.cs" />
+    <Compile Include="Migrations\201809261432481_adding router path.Designer.cs">
+      <DependentUpon>201809261432481_adding router path.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810120818541_update.cs" />
+    <Compile Include="Migrations\201810120818541_update.Designer.cs">
+      <DependentUpon>201810120818541_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810120823413_update1.cs" />
+    <Compile Include="Migrations\201810120823413_update1.Designer.cs">
+      <DependentUpon>201810120823413_update1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810121510363_adding branch and configuration table.cs" />
+    <Compile Include="Migrations\201810121510363_adding branch and configuration table.Designer.cs">
+      <DependentUpon>201810121510363_adding branch and configuration table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810121907385_update2.cs" />
+    <Compile Include="Migrations\201810121907385_update2.Designer.cs">
+      <DependentUpon>201810121907385_update2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901161553031_add router path.cs" />
+    <Compile Include="Migrations\201901161553031_add router path.Designer.cs">
+      <DependentUpon>201901161553031_add router path.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901201642504_adding role control.cs" />
+    <Compile Include="Migrations\201901201642504_adding role control.Designer.cs">
+      <DependentUpon>201901201642504_adding role control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901211445429_change role.cs" />
+    <Compile Include="Migrations\201901211445429_change role.Designer.cs">
+      <DependentUpon>201901211445429_change role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902101655563_adding chart of account.cs" />
+    <Compile Include="Migrations\201902101655563_adding chart of account.Designer.cs">
+      <DependentUpon>201902101655563_adding chart of account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902101658221_update chart of account.cs" />
+    <Compile Include="Migrations\201902101658221_update chart of account.Designer.cs">
+      <DependentUpon>201902101658221_update chart of account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902180714034_adding voucher.cs" />
+    <Compile Include="Migrations\201902180714034_adding voucher.Designer.cs">
+      <DependentUpon>201902180714034_adding voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902181035428_adding form control.cs" />
+    <Compile Include="Migrations\201902181035428_adding form control.Designer.cs">
+      <DependentUpon>201902181035428_adding form control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902251623489_adding user control table.cs" />
+    <Compile Include="Migrations\201902251623489_adding user control table.Designer.cs">
+      <DependentUpon>201902251623489_adding user control table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902251628290_adding type in usercontroltable.cs" />
+    <Compile Include="Migrations\201902251628290_adding type in usercontroltable.Designer.cs">
+      <DependentUpon>201902251628290_adding type in usercontroltable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902261602422_adding subledger.cs" />
+    <Compile Include="Migrations\201902261602422_adding subledger.Designer.cs">
+      <DependentUpon>201902261602422_adding subledger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902261829243_adding delete in form control.cs" />
+    <Compile Include="Migrations\201902261829243_adding delete in form control.Designer.cs">
+      <DependentUpon>201902261829243_adding delete in form control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903051732404_changing delete to checkbox.cs" />
+    <Compile Include="Migrations\201903051732404_changing delete to checkbox.Designer.cs">
+      <DependentUpon>201903051732404_changing delete to checkbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903080906188_adding inventory settings.cs" />
+    <Compile Include="Migrations\201903080906188_adding inventory settings.Designer.cs">
+      <DependentUpon>201903080906188_adding inventory settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903230736239_adding supplier party and fanufacture.cs" />
+    <Compile Include="Migrations\201903230736239_adding supplier party and fanufacture.Designer.cs">
+      <DependentUpon>201903230736239_adding supplier party and fanufacture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903271447516_update3.cs" />
+    <Compile Include="Migrations\201903271447516_update3.Designer.cs">
+      <DependentUpon>201903271447516_update3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903271745196_update4.cs" />
+    <Compile Include="Migrations\201903271745196_update4.Designer.cs">
+      <DependentUpon>201903271745196_update4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903291203273_purchase item.cs" />
+    <Compile Include="Migrations\201903291203273_purchase item.Designer.cs">
+      <DependentUpon>201903291203273_purchase item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904031639222_update5.cs" />
+    <Compile Include="Migrations\201904031639222_update5.Designer.cs">
+      <DependentUpon>201904031639222_update5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904031642124_update6.cs" />
+    <Compile Include="Migrations\201904031642124_update6.Designer.cs">
+      <DependentUpon>201904031642124_update6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904031645138_update7.cs" />
+    <Compile Include="Migrations\201904031645138_update7.Designer.cs">
+      <DependentUpon>201904031645138_update7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904071700427_add lot no.cs" />
+    <Compile Include="Migrations\201904071700427_add lot no.Designer.cs">
+      <DependentUpon>201904071700427_add lot no.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904071707532_add reason.cs" />
+    <Compile Include="Migrations\201904071707532_add reason.Designer.cs">
+      <DependentUpon>201904071707532_add reason.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904091701011_adding customer update.cs" />
+    <Compile Include="Migrations\201904091701011_adding customer update.Designer.cs">
+      <DependentUpon>201904091701011_adding customer update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904091704246_adding supplier update.cs" />
+    <Compile Include="Migrations\201904091704246_adding supplier update.Designer.cs">
+      <DependentUpon>201904091704246_adding supplier update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904091726345_adding supplier update 2.cs" />
+    <Compile Include="Migrations\201904091726345_adding supplier update 2.Designer.cs">
+      <DependentUpon>201904091726345_adding supplier update 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904191242016_Add sell price.cs" />
+    <Compile Include="Migrations\201904191242016_Add sell price.Designer.cs">
+      <DependentUpon>201904191242016_Add sell price.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904241507284_remove formater.cs" />
+    <Compile Include="Migrations\201904241507284_remove formater.Designer.cs">
+      <DependentUpon>201904241507284_remove formater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904241510061_change formater.cs" />
+    <Compile Include="Migrations\201904241510061_change formater.Designer.cs">
+      <DependentUpon>201904241510061_change formater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904281228285_party supplier.cs" />
+    <Compile Include="Migrations\201904281228285_party supplier.Designer.cs">
+      <DependentUpon>201904281228285_party supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905051508286_adding side menurouter path.cs" />
+    <Compile Include="Migrations\201905051508286_adding side menurouter path.Designer.cs">
+      <DependentUpon>201905051508286_adding side menurouter path.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905071430464_add customerId and supplierId.cs" />
+    <Compile Include="Migrations\201905071430464_add customerId and supplierId.Designer.cs">
+      <DependentUpon>201905071430464_add customerId and supplierId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905071512248_update8.cs" />
+    <Compile Include="Migrations\201905071512248_update8.Designer.cs">
+      <DependentUpon>201905071512248_update8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905081631113_change natpaidamount to netpayableamount.cs" />
+    <Compile Include="Migrations\201905081631113_change natpaidamount to netpayableamount.Designer.cs">
+      <DependentUpon>201905081631113_change natpaidamount to netpayableamount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905081718369_add paidamount.cs" />
+    <Compile Include="Migrations\201905081718369_add paidamount.Designer.cs">
+      <DependentUpon>201905081718369_add paidamount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905140532046_adding transaction details.cs" />
+    <Compile Include="Migrations\201905140532046_adding transaction details.Designer.cs">
+      <DependentUpon>201905140532046_adding transaction details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905240414228_adding offer.cs" />
+    <Compile Include="Migrations\201905240414228_adding offer.Designer.cs">
+      <DependentUpon>201905240414228_adding offer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905240421131_change order type.cs" />
+    <Compile Include="Migrations\201905240421131_change order type.Designer.cs">
+      <DependentUpon>201905240421131_change order type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905261102021_adding isFirsttransaction.cs" />
+    <Compile Include="Migrations\201905261102021_adding isFirsttransaction.Designer.cs">
+      <DependentUpon>201905261102021_adding isFirsttransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905270901365_change code formater.cs" />
+    <Compile Include="Migrations\201905270901365_change code formater.Designer.cs">
+      <DependentUpon>201905270901365_change code formater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905291520537_change offersetup.cs" />
+    <Compile Include="Migrations\201905291520537_change offersetup.Designer.cs">
+      <DependentUpon>201905291520537_change offersetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906110928529_adding issingle in offersetup table.cs" />
+    <Compile Include="Migrations\201906110928529_adding issingle in offersetup table.Designer.cs">
+      <DependentUpon>201906110928529_adding issingle in offersetup table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906110934235_change string length.cs" />
+    <Compile Include="Migrations\201906110934235_change string length.Designer.cs">
+      <DependentUpon>201906110934235_change string length.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906120946448_alter table tblOfferSetup add onetomay.cs" />
+    <Compile Include="Migrations\201906120946448_alter table tblOfferSetup add onetomay.Designer.cs">
+      <DependentUpon>201906120946448_alter table tblOfferSetup add onetomay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908191626027_AddingEmployeeGrade.cs" />
+    <Compile Include="Migrations\201908191626027_AddingEmployeeGrade.Designer.cs">
+      <DependentUpon>201908191626027_AddingEmployeeGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908191722476_ChangeGuidToString.cs" />
+    <Compile Include="Migrations\201908191722476_ChangeGuidToString.Designer.cs">
+      <DependentUpon>201908191722476_ChangeGuidToString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908191736447_ChangeGuidToStringAllForignKey.cs" />
+    <Compile Include="Migrations\201908191736447_ChangeGuidToStringAllForignKey.Designer.cs">
+      <DependentUpon>201908191736447_ChangeGuidToStringAllForignKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908200633228_addManyToOneInOfferSetup.cs" />
+    <Compile Include="Migrations\201908200633228_addManyToOneInOfferSetup.Designer.cs">
+      <DependentUpon>201908200633228_addManyToOneInOfferSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908220627517_ChangeDataTypeDoubleToBool.cs" />
+    <Compile Include="Migrations\201908220627517_ChangeDataTypeDoubleToBool.Designer.cs">
+      <DependentUpon>201908220627517_ChangeDataTypeDoubleToBool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908250757382_addindTable.cs" />
+    <Compile Include="Migrations\201908250757382_addindTable.Designer.cs">
+      <DependentUpon>201908250757382_addindTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908260500235_addInheritedItem.cs" />
+    <Compile Include="Migrations\201908260500235_addInheritedItem.Designer.cs">
+      <DependentUpon>201908260500235_addInheritedItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908260557224_changeDataTypeDouble.cs" />
+    <Compile Include="Migrations\201908260557224_changeDataTypeDouble.Designer.cs">
+      <DependentUpon>201908260557224_changeDataTypeDouble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908260602297_changeDataTypeDouble2.cs" />
+    <Compile Include="Migrations\201908260602297_changeDataTypeDouble2.Designer.cs">
+      <DependentUpon>201908260602297_changeDataTypeDouble2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908270335454_changeGradeStepSalaryItemtable.cs" />
+    <Compile Include="Migrations\201908270335454_changeGradeStepSalaryItemtable.Designer.cs">
+      <DependentUpon>201908270335454_changeGradeStepSalaryItemtable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908270902337_changeGradeStepSalaryItem.cs" />
+    <Compile Include="Migrations\201908270902337_changeGradeStepSalaryItem.Designer.cs">
+      <DependentUpon>201908270902337_changeGradeStepSalaryItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908280719235_AddIsReadOnly.cs" />
+    <Compile Include="Migrations\201908280719235_AddIsReadOnly.Designer.cs">
+      <DependentUpon>201908280719235_AddIsReadOnly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908281556425_AddIsreadOnlyIsAutoCode.cs" />
+    <Compile Include="Migrations\201908281556425_AddIsreadOnlyIsAutoCode.Designer.cs">
+      <DependentUpon>201908281556425_AddIsreadOnlyIsAutoCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909010653573_createItemNameTable.cs" />
+    <Compile Include="Migrations\201909010653573_createItemNameTable.Designer.cs">
+      <DependentUpon>201909010653573_createItemNameTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909110403465_ChangeOfferModule.cs" />
+    <Compile Include="Migrations\201909110403465_ChangeOfferModule.Designer.cs">
+      <DependentUpon>201909110403465_ChangeOfferModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910040602140_change offer table.cs" />
+    <Compile Include="Migrations\201910040602140_change offer table.Designer.cs">
+      <DependentUpon>201910040602140_change offer table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910041041332_change datatype.cs" />
+    <Compile Include="Migrations\201910041041332_change datatype.Designer.cs">
+      <DependentUpon>201910041041332_change datatype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910050813300_add wholesale.cs" />
+    <Compile Include="Migrations\201910050813300_add wholesale.Designer.cs">
+      <DependentUpon>201910050813300_add wholesale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910161514173_add settingdate.cs" />
+    <Compile Include="Migrations\201910161514173_add settingdate.Designer.cs">
+      <DependentUpon>201910161514173_add settingdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910161536178_add settingMethod.cs" />
+    <Compile Include="Migrations\201910161536178_add settingMethod.Designer.cs">
+      <DependentUpon>201910161536178_add settingMethod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\AccountOpening.cs" />
+    <Compile Include="Model\AccountParentChildRelation.cs" />
+    <Compile Include="Model\ApplicatonAccessLog.cs" />
+    <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\Branch.cs" />
+    <Compile Include="Model\BranchConfiguration.cs" />
+    <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\CodeFormater.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\CustomerOffer.cs" />
+    <Compile Include="Model\CustomerSupplierTransactionDetail.cs" />
+    <Compile Include="Model\Department.cs" />
+    <Compile Include="Model\Designation.cs" />
+    <Compile Include="Model\EducationLevel.cs" />
+    <Compile Include="Model\EmployeeGrade.cs" />
+    <Compile Include="Model\EmployeeSubGrade.cs" />
+    <Compile Include="Model\FormInfo.cs" />
+    <Compile Include="Model\GradeStepSalaryItem.cs" />
+    <Compile Include="Model\GroupItem.cs" />
+    <Compile Include="Model\InventoryItem.cs" />
+    <Compile Include="Model\ItemName.cs" />
+    <Compile Include="Model\ItemTransaction.cs" />
+    <Compile Include="Model\LeaveType.cs" />
+    <Compile Include="Model\Location.cs" />
+    <Compile Include="Model\Manufacture.cs" />
+    <Compile Include="Model\Occupation.cs" />
+    <Compile Include="Model\Offer.cs" />
+    <Compile Include="Model\Party.cs" />
+    <Compile Include="Model\PartyTransaction.cs" />
+    <Compile Include="Model\ProductOfferMaster.cs" />
+    <Compile Include="Model\SalaryItem.cs" />
+    <Compile Include="Model\SettingSellPrice.cs" />
+    <Compile Include="Model\Subcategory.cs" />
+    <Compile Include="Model\SubledgerOpening.cs" />
+    <Compile Include="Model\SubledgerTransaction.cs" />
+    <Compile Include="Model\Subledger.cs" />
+    <Compile Include="Model\FormControlPermssion.cs" />
+    <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\Menu.cs" />
+    <Compile Include="Model\Module.cs" />
+    <Compile Include="Model\PasswordChangeHistory.cs" />
+    <Compile Include="Model\Permission.cs" />
+    <Compile Include="Model\Role.cs" />
+    <Compile Include="Model\RoleControl.cs" />
+    <Compile Include="Model\RolePermission.cs" />
+    <Compile Include="Model\SessionManagement.cs" />
+    <Compile Include="Model\SubMenu.cs" />
+    <Compile Include="Model\Supplier.cs" />
+    <Compile Include="Model\SupplierTransaction.cs" />
+    <Compile Include="Model\Unit.cs" />
+    <Compile Include="Model\UserFormControl.cs" />
+    <Compile Include="Model\UserInfo.cs" />
+    <Compile Include="Model\UserPermission.cs" />
+    <Compile Include="Model\Voucher.cs" />
+    <Compile Include="Model\VoucherDetails.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumonERPContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201808291653552_creating db and userinfo table.resx">
+      <DependentUpon>201808291653552_creating db and userinfo table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808291700169_userinfo table.resx">
+      <DependentUpon>201808291700169_userinfo table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809091547212_adding.resx">
+      <DependentUpon>201809091547212_adding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809091551032_adding menus.resx">
+      <DependentUpon>201809091551032_adding menus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809101648361_adding permission.resx">
+      <DependentUpon>201809101648361_adding permission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809261427206_adding foreign key.resx">
+      <DependentUpon>201809261427206_adding foreign key.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809261432481_adding router path.resx">
+      <DependentUpon>201809261432481_adding router path.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810120818541_update.resx">
+      <DependentUpon>201810120818541_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810120823413_update1.resx">
+      <DependentUpon>201810120823413_update1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810121510363_adding branch and configuration table.resx">
+      <DependentUpon>201810121510363_adding branch and configuration table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810121907385_update2.resx">
+      <DependentUpon>201810121907385_update2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901161553031_add router path.resx">
+      <DependentUpon>201901161553031_add router path.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901201642504_adding role control.resx">
+      <DependentUpon>201901201642504_adding role control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901211445429_change role.resx">
+      <DependentUpon>201901211445429_change role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902101655563_adding chart of account.resx">
+      <DependentUpon>201902101655563_adding chart of account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902101658221_update chart of account.resx">
+      <DependentUpon>201902101658221_update chart of account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902180714034_adding voucher.resx">
+      <DependentUpon>201902180714034_adding voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902181035428_adding form control.resx">
+      <DependentUpon>201902181035428_adding form control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902251623489_adding user control table.resx">
+      <DependentUpon>201902251623489_adding user control table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902251628290_adding type in usercontroltable.resx">
+      <DependentUpon>201902251628290_adding type in usercontroltable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902261602422_adding subledger.resx">
+      <DependentUpon>201902261602422_adding subledger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902261829243_adding delete in form control.resx">
+      <DependentUpon>201902261829243_adding delete in form control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903051732404_changing delete to checkbox.resx">
+      <DependentUpon>201903051732404_changing delete to checkbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080906188_adding inventory settings.resx">
+      <DependentUpon>201903080906188_adding inventory settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903230736239_adding supplier party and fanufacture.resx">
+      <DependentUpon>201903230736239_adding supplier party and fanufacture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903271447516_update3.resx">
+      <DependentUpon>201903271447516_update3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903271745196_update4.resx">
+      <DependentUpon>201903271745196_update4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903291203273_purchase item.resx">
+      <DependentUpon>201903291203273_purchase item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904031639222_update5.resx">
+      <DependentUpon>201904031639222_update5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904031642124_update6.resx">
+      <DependentUpon>201904031642124_update6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904031645138_update7.resx">
+      <DependentUpon>201904031645138_update7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904071700427_add lot no.resx">
+      <DependentUpon>201904071700427_add lot no.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904071707532_add reason.resx">
+      <DependentUpon>201904071707532_add reason.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904091701011_adding customer update.resx">
+      <DependentUpon>201904091701011_adding customer update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904091704246_adding supplier update.resx">
+      <DependentUpon>201904091704246_adding supplier update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904091726345_adding supplier update 2.resx">
+      <DependentUpon>201904091726345_adding supplier update 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904191242016_Add sell price.resx">
+      <DependentUpon>201904191242016_Add sell price.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904241507284_remove formater.resx">
+      <DependentUpon>201904241507284_remove formater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904241510061_change formater.resx">
+      <DependentUpon>201904241510061_change formater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904281228285_party supplier.resx">
+      <DependentUpon>201904281228285_party supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905051508286_adding side menurouter path.resx">
+      <DependentUpon>201905051508286_adding side menurouter path.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905071430464_add customerId and supplierId.resx">
+      <DependentUpon>201905071430464_add customerId and supplierId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905071512248_update8.resx">
+      <DependentUpon>201905071512248_update8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905081631113_change natpaidamount to netpayableamount.resx">
+      <DependentUpon>201905081631113_change natpaidamount to netpayableamount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905081718369_add paidamount.resx">
+      <DependentUpon>201905081718369_add paidamount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905140532046_adding transaction details.resx">
+      <DependentUpon>201905140532046_adding transaction details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905240414228_adding offer.resx">
+      <DependentUpon>201905240414228_adding offer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905240421131_change order type.resx">
+      <DependentUpon>201905240421131_change order type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905261102021_adding isFirsttransaction.resx">
+      <DependentUpon>201905261102021_adding isFirsttransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905270901365_change code formater.resx">
+      <DependentUpon>201905270901365_change code formater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905291520537_change offersetup.resx">
+      <DependentUpon>201905291520537_change offersetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906110928529_adding issingle in offersetup table.resx">
+      <DependentUpon>201906110928529_adding issingle in offersetup table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906110934235_change string length.resx">
+      <DependentUpon>201906110934235_change string length.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906120946448_alter table tblOfferSetup add onetomay.resx">
+      <DependentUpon>201906120946448_alter table tblOfferSetup add onetomay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908191626027_AddingEmployeeGrade.resx">
+      <DependentUpon>201908191626027_AddingEmployeeGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908191722476_ChangeGuidToString.resx">
+      <DependentUpon>201908191722476_ChangeGuidToString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908191736447_ChangeGuidToStringAllForignKey.resx">
+      <DependentUpon>201908191736447_ChangeGuidToStringAllForignKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908200633228_addManyToOneInOfferSetup.resx">
+      <DependentUpon>201908200633228_addManyToOneInOfferSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908220627517_ChangeDataTypeDoubleToBool.resx">
+      <DependentUpon>201908220627517_ChangeDataTypeDoubleToBool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908250757382_addindTable.resx">
+      <DependentUpon>201908250757382_addindTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908260500235_addInheritedItem.resx">
+      <DependentUpon>201908260500235_addInheritedItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908260557224_changeDataTypeDouble.resx">
+      <DependentUpon>201908260557224_changeDataTypeDouble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908260602297_changeDataTypeDouble2.resx">
+      <DependentUpon>201908260602297_changeDataTypeDouble2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908270335454_changeGradeStepSalaryItemtable.resx">
+      <DependentUpon>201908270335454_changeGradeStepSalaryItemtable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908270902337_changeGradeStepSalaryItem.resx">
+      <DependentUpon>201908270902337_changeGradeStepSalaryItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908280719235_AddIsReadOnly.resx">
+      <DependentUpon>201908280719235_AddIsReadOnly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908281556425_AddIsreadOnlyIsAutoCode.resx">
+      <DependentUpon>201908281556425_AddIsreadOnlyIsAutoCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909010653573_createItemNameTable.resx">
+      <DependentUpon>201909010653573_createItemNameTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909110403465_ChangeOfferModule.resx">
+      <DependentUpon>201909110403465_ChangeOfferModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910040602140_change offer table.resx">
+      <DependentUpon>201910040602140_change offer table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910041041332_change datatype.resx">
+      <DependentUpon>201910041041332_change datatype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910050813300_add wholesale.resx">
+      <DependentUpon>201910050813300_add wholesale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910161514173_add settingdate.resx">
+      <DependentUpon>201910161514173_add settingdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910161536178_add settingMethod.resx">
+      <DependentUpon>201910161536178_add settingMethod.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
