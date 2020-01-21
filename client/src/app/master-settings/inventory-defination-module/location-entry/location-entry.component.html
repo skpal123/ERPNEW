@@ -1,0 +1,53 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Location entry
+            <app-form-control-info-settings [formName]="formName"></app-form-control-info-settings>
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #locationForm="ngForm">
+            <div class="form-group row" *ngIf="locationValidation[0]?.LocationId" [class.has-error]="LocationIdControl.invalid"  [class.has-success]="LocationIdControl.valid">
+                <label for="LocationId" class="col-sm-3 col-form-label control-label" [class.required]="LocationIdControl.invalid" >Location Id</label>
+                <div class="col-sm-7" >
+                    <input type="text" class="form-control" [required]="locationValidation[0]?.LocationId&&locationValidation[1]?.LocationId" name="LocationId" #LocationIdControl="ngModel" id="LocationId" [(ngModel)]="location.LocationId">
+                </div>
+                <div class="col-md-2"> 
+                  <app-autocode-generate
+                  [itemName]="itemName"
+                  [IsAutoCode]="IsAutoCode"
+                  (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+                  >
+                  </app-autocode-generate>
+                </div>
+              </div>
+              <div class="form-group row"  *ngIf="locationValidation[0]?.LocationName" [class.has-success]="locationNameControl.valid&&locationNameControl.touched" [class.has-error]="locationNameControl.invalid&&locationNameControl.touched">
+                  <label for="LocationName" class="col-sm-3 col-form-label control-label" [class.required]="locationNameControl.invalid">Location name</label>
+                  <div class="col-sm-9" >
+                      <input class="form-control"  [required]="locationValidation[0]?.LocationName&&locationValidation[1]?.LocationName" name="LocationName" #locationNameControl="ngModel" id="LocationName" [(ngModel)]="location.LocationName">
+                      <span class="help-block" *ngIf="locationNameControl.invalid&&locationNameControl.touched">
+                        Location name feild is required
+                    </span>  
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="locationValidation[0]?.Description" [class.has-error]="descriptionControl.invalid&&descriptionControl.touched"  [class.has-success]="descriptionControl.valid&&descriptionControl.touched">
+                  <label for="Description" class="col-sm-3 col-form-label control-label" [class.required]="descriptionControl.invalid">Description</label>
+                  <div class="col-sm-9" >
+                      <input class="form-control"  [required]="locationValidation[0]?.Description&&locationValidation[1]?.Description" name="Description" #descriptionControl="ngModel" id="Description" [(ngModel)]="location.Description">
+                  </div>
+                  <span class="help-block" *ngIf="descriptionControl.invalid&&descriptionControl.touched">
+                    Description feild is required
+                </span> 
+                </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="locationForm.invalid" (click)="saveLocation()" value="Save" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+ul li{
+    list-style: none;   
+    margin: 10px;
+    padding: 5px;
+}
+#displayHeadDiv{
+    cursor: pointer;
+}
+.pointer{
+    cursor: pointer;
+}
+a {
+ cursor: pointer;
+}

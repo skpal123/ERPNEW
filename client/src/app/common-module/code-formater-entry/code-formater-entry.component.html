@@ -1,0 +1,131 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Code format
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form [formGroup]="codeFormaterForm">
+              <div class="form-group row"  [class.has-success]="codeFormaterForm.get('Name').valid" [ngClass]="{'has-error':codeFormaterForm.get('Name').invalid}">
+                  <label for="Name" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('Name').invalid" >Name</label>
+                  <div class="col-sm-9" >
+                      <input style="display: none" id="Name" class="form-control" type="text" formControlName="Name" >
+                      <angular2-multiselect [data]="itemNameDropdownList" formControlName="Name_Id" [settings]="itemNameDropdownSettings"
+                      (onSelect)="itemNameOnItemSelect($event)" >
+                      </angular2-multiselect>
+                      <span class="help-block" *ngIf="codeFormaterForm.get('Name').errors?.required&&codeFormaterForm.get('Name').touched">
+                        Name feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="codeFormaterForm.get('ItemName').valid&&codeFormaterForm.get('ItemName').touched" [ngClass]="{'has-error':codeFormaterForm.get('ItemName').invalid&&codeFormaterForm.get('ItemName').touched}">
+                  <label for="ItemName" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('ItemName').invalid">ItemName</label>
+                  <div class="col-sm-9" >
+                      <input id="ItemName" type="text" (blur)="itemNameChange($event)" class="form-control" formControlName="ItemName"> 
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="codeFormaterForm.get('ItemLength').valid&&codeFormaterForm.get('ItemLength').touched" [ngClass]="{'has-error':codeFormaterForm.get('ItemLength').invalid&&codeFormaterForm.get('ItemLength').touched}">
+                  <label for="ItemLength" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('ItemLength').invalid">Item Length</label>
+                  <div class="col-sm-9" >
+                      <input id="ItemLength" type="number" class="form-control" formControlName="ItemLength">
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="codeFormaterForm.get('IsSerial').valid&&codeFormaterForm.get('IsSerial').touched" [ngClass]="{'has-error':codeFormaterForm.get('IsSerial').invalid&&codeFormaterForm.get('IsSerial').touched}">
+                  <label for="IsSerial" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('IsSerial').invalid">Is Serial</label>
+                  <div class="col-sm-9" >
+                      <input id="IsSerial" (change)="changeIsDateAndSerial($event)" type="checkbox"  formControlName="IsSerial">
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="codeFormaterForm.get('IsTodaysDate').valid&&codeFormaterForm.get('IsTodaysDate').touched" [ngClass]="{'has-error':codeFormaterForm.get('IsTodaysDate').invalid&&codeFormaterForm.get('IsTodaysDate').touched}">
+                  <label for="IsTodaysDate"  class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('IsTodaysDate').invalid">IsTodaysDate</label>
+                  <div class="col-sm-9" >
+                      <input id="IsTodaysDate" (change)="changeIsDateAndSerial($event)" type="checkbox" formControlName="IsTodaysDate">  
+                  </div>
+                </div>
+                <div class="form-group row "[class.has-success]="codeFormaterForm.get('IsSymbol').valid&&codeFormaterForm.get('IsSymbol').touched" [ngClass]="{'has-error':codeFormaterForm.get('IsSymbol').invalid&&codeFormaterForm.get('IsSymbol').touched}">
+                  <label for="IsSymbol" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('IsSymbol').invalid">Is Symbol</label>
+                  <div class="col-sm-9" >
+                      <input id="IsSymbol" (change)="changeIsSymbol($event)" type="checkbox" formControlName="IsSymbol"> 
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="codeFormaterForm.get('SymbolName').valid&&codeFormaterForm.get('SymbolName').touched" [ngClass]="{'has-error':codeFormaterForm.get('SymbolName').invalid}">
+                  <label for="SymbolName" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('SymbolName').invalid">SymbolName</label>
+                  <div class="col-sm-9" >
+                    <select id="SymbolName" class="form-control" formControlName="SymbolName">
+                      <option value="">Select</option>
+                      <option value="hifen">Hifen(-)</option>
+                      <option value="underscore">Underscore(_)</option>
+                      <option value="unknown">Unknown</option>
+                    </select>
+                      <span class="help-block" *ngIf="codeFormaterForm.get('SymbolName').errors?.required">
+                          Symbol Name is required
+                        </span>
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="codeFormaterForm.get('Prefix').valid&&codeFormaterForm.get('Prefix').touched" [ngClass]="{'has-error':codeFormaterForm.get('Prefix').invalid}">
+                    <label for="Prefix" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('Prefix').invalid">Prefix</label>
+                    <div class="col-sm-9" >
+                        <input id="Prefix" type="text" (blur)="prefixChange($event)" class="form-control" formControlName="Prefix">
+                        <span class="help-block" *ngIf="codeFormaterForm.get('Prefix').errors?.required">
+                            Prefix is required
+                          </span>
+                    </div>
+                  </div>
+                <div class="form-group row" [class.has-success]="codeFormaterForm.get('StartPossition').valid&&codeFormaterForm.get('StartPossition').touched" [ngClass]="{'has-error':codeFormaterForm.get('StartPossition').invalid&&codeFormaterForm.get('StartPossition').touched}">
+                  <label for="StartPossition" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('StartPossition').invalid">StartPossition</label>
+                  <div class="col-sm-9" >
+                      <input id="StartPossition" type="number" class="form-control" formControlName="StartPossition">  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="codeFormaterForm.get('LastNumber').valid&&codeFormaterForm.get('LastNumber').touched" [ngClass]="{'has-error':codeFormaterForm.get('LastNumber').invalid&&codeFormaterForm.get('LastNumber').touched}">
+                  <label for="LastNumber" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('LastNumber').invalid">LastNumber</label>
+                  <div class="col-sm-9" >
+                      <input id="LastNumber" type="number" class="form-control" formControlName="LastNumber">
+                  </div>
+                </div>
+                <div class="form-group row"  [class.has-success]="codeFormaterForm.get('StringLength').valid&&codeFormaterForm.get('StringLength').touched" [ngClass]="{'has-error':codeFormaterForm.get('StringLength').invalid&&codeFormaterForm.get('StringLength').touched}">
+                  <label for="StringLength" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('StringLength').invalid">StringLength</label>
+                  <div class="col-sm-9" >
+                      <input id="StringLength" type="number" class="form-control" formControlName="StringLength">
+                      <span class="help-block" *ngIf="codeFormaterForm.get('StringLength').errors?.required&&codeFormaterForm.get('StringLength').touched">
+                        String Length feild is required
+                      </span>
+                      <span class="help-block" *ngIf="codeFormaterForm.get('StringLength').errors?.minlength&&codeFormaterForm.get('StringLength').touched">
+                        Must be {{minLength}}
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="codeFormaterForm.get('IsTodaysDate').value"  [class.has-success]="codeFormaterForm.get('MiddleSymbol').valid&&codeFormaterForm.get('MiddleSymbol').touched" [ngClass]="{'has-error':codeFormaterForm.get('MiddleSymbol').invalid&&codeFormaterForm.get('MiddleSymbol').touched}">
+                    <label for="MiddleSymbol" class="col-sm-3 col-form-label control-label" [class.required]="codeFormaterForm.get('MiddleSymbol').invalid">Middle Symbol</label>
+                    <div class="col-sm-9" >
+                        <input id="MiddleSymbol" (blur)="updateValidation()" type="text" class="form-control" formControlName="MiddleSymbol">
+                        <span class="help-block" *ngIf="codeFormaterForm.get('MiddleSymbol').errors?.required&&codeFormaterForm.get('MiddleSymbol').touched">
+                          Middle symbol feild is required
+                        </span>  
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                      <label for="preview" class="col-sm-3 col-form-label control-label">Preview</label>
+                      <div class="col-sm-9" >
+                          <input id="preview" formControlName="Preview" type="text" class="form-control" readonly>
+                      </div>
+                    </div>
+                <div class="row" style="margin-top: 10px">
+                <div class="col-md-2 pull-left">
+                      <input type="button" (click)="seePreview()" value="Preview" class="btn btn-primary">
+                  </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="codeFormaterForm.invalid" (click)="saveCodeFormater()" value="{{codeFormater.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!codeFormaterForm.dirty" (click)="clearCodeFormater()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>

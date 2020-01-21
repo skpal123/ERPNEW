@@ -1,0 +1,43 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Unit entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #unitForm="ngForm">
+            <div class="form-group row" *ngIf="unitValidation[0]?.UnitName" [class.has-success]="unitNameControl.valid&&unitNameControl.touched" [class.has-error]="unitNameControl.invalid&&unitNameControl.touched">
+                <label for="UnitName" class="col-sm-3 col-form-label control-label" [class.required]="unitNameControl.invalid">Unit Name</label>
+                <div class="col-sm-9" >
+                    <input class="form-control" [required]="unitValidation[0]?.UnitName&&unitValidation[1]?.UnitName" name="UnitName" #unitNameControl="ngModel" id="UnitName" [(ngModel)]="unit.UnitName">
+                    <span class="help-block" *ngIf="unitNameControl.invalid&&unitNameControl.touched">
+                        unit name feild is required
+                    </span>  
+                </div>
+              </div>
+              <div class="form-group row" *ngIf="unitValidation[0]?.Description" [class.has-success]="descriptionControl.valid&&descriptionControl.touched" [class.has-error]="descriptionControl.invalid&&descriptionControl.touched">
+                  <label for="Description" class="col-sm-3 col-form-label control-label" [class.required]="descriptionControl.invalid">Description</label>
+                  <div class="col-sm-9" >
+                      <input class="form-control" [required]="unitValidation[0]?.Description&&unitValidation[1]?.Description" name="Description" #descriptionControl="ngModel" id="Description" [(ngModel)]="unit.Description">
+                      <span class="help-block" *ngIf="descriptionControl.invalid&&descriptionControl.touched">
+                        Description feild is required
+                    </span>  
+                  </div>
+
+                </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="unitForm.invalid" (click)="saveUnit()" value="{{unit.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!unitForm.dirty" (click)="clearUnit()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

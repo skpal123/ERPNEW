@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> EducationLevel entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #educationLevelForm="ngForm">
+            <div class="form-group row" *ngIf="educationLevelValidation[0]?.LevelId" [class.has-success]="educationLevelIdControl.valid&&educationLevelIdControl.touched" [class.has-error]="educationLevelIdControl.invalid&&educationLevelIdControl.touched">
+                <label for="educationLevelId" class="col-sm-3 col-form-label control-label" [class.required]="educationLevelIdControl.invalid">EducationLevel id</label>
+                <div class="col-sm-7" >
+                    <input class="form-control" educationLevelCheck [required]="educationLevelValidation[0]?.LevelId&&educationLevelValidation[1]?.LevelId" name="educationLevelId" #educationLevelIdControl="ngModel" id="educationLevelId" [(ngModel)]="educationLevel.LevelId">
+                    <span class="help-block" *ngIf="educationLevelIdControl.errors?.required&&educationLevelIdControl.touched">
+                        EducationLevel id feild is required  
+                    </span>
+                    <span class="help-block" *ngIf="educationLevelIdControl.errors?.exists&&educationLevelIdControl.touched">
+                      EducationLevel id already taken
+                    </span>
+                </div>
+                <div class="col-md-2"> 
+                  <app-autocode-generate
+                  [itemName]="itemName"
+                  [IsAutoCode]="IsAutoCode" 
+                  (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+                  >
+                  </app-autocode-generate>
+                </div>
+              </div>
+            <div *ngIf="educationLevelValidation[0]?.LevelName" class="form-group row" [class.has-success]="educationLevelNameControl.valid&&educationLevelNameControl.touched" [class.has-error]="educationLevelNameControl.invalid&&educationLevelNameControl.touched">
+                <label for="LevelName" class="col-sm-3 col-form-label control-label" [class.required]="educationLevelNameControl.invalid">EducationLevel Name</label>
+                <div class="col-sm-9" >
+                    <input class="form-control" [required]="educationLevelValidation[0]?.LevelName&&educationLevelValidation[1]?.LevelName" name="LevelName" #educationLevelNameControl="ngModel" id="LevelName" [(ngModel)]="educationLevel.LevelName">
+                    <span class="help-block" *ngIf="educationLevelNameControl.invalid&&educationLevelNameControl.touched">
+                        EducationLevel name feild is required
+                    </span>  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="educationLevelForm.invalid" (click)="saveEducationLevel()" value="{{educationLevel.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!educationLevelForm.dirty" (click)="clearEducationLevel()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  

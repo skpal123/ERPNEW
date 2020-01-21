@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h5>Account opening</h5>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group row">
+            <label for="openingDate" class="col-sm-4 col-form-label">Opening date</label>
+            <div class="col-sm-8" id="">
+              <input type="text"  #openingDateControl="ngModel" [(ngModel)]="openingDate" class="form-control" id="openingDate" value="">
+            </div>
+         </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group row">
+            <label for="searchAccountCode" class="col-sm-4 col-form-label">Search</label>
+            <div class="col-sm-8" id="">
+              <input type="text" #searchAccountCodeControl="ngModel" [(ngModel)]="searchAccountCode" class="form-control" id="searchAccountCode" placeholder="Search Account code & description">
+            </div>
+         </div>
+        </div>
+      </div>
+      <app-dynamic-table-entry
+                [ColumnList]="columnlist"
+                [Datalist]="DataList" 
+                >
+        </app-dynamic-table-entry>
+    </div>
+  </div>
+</div>

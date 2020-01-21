@@ -1,0 +1,63 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> LeaveType entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #leaveTypeForm="ngForm">
+            <div class="form-group row" *ngIf="leaveTypeValidation[0]?.LeaveTypeId" [class.has-success]="leaveTypeIdControl.valid&&leaveTypeIdControl.touched" [class.has-error]="leaveTypeIdControl.invalid&&leaveTypeIdControl.touched">
+                <label for="leaveTypeId" class="col-sm-3 col-form-label control-label" [class.required]="leaveTypeIdControl.invalid">LeaveType id</label>
+                <div class="col-sm-7" >
+                    <input class="form-control" [readonly]="leaveTypeValidation[3]?.LeaveTypeId" leaveTypeCheck [required]="leaveTypeValidation[0]?.LeaveTypeId&&leaveTypeValidation[1]?.LeaveTypeId" name="leaveTypeId" #leaveTypeIdControl="ngModel" id="leaveTypeId" [(ngModel)]="leaveType.LeaveTypeId">
+                    <span class="help-block" *ngIf="leaveTypeIdControl.errors?.required&&leaveTypeIdControl.touched">
+                        LeaveType id feild is required  
+                    </span>
+                    <span class="help-block" *ngIf="leaveTypeIdControl.errors?.exists&&leaveTypeIdControl.touched">
+                      LeaveType id already taken
+                    </span>
+                </div>
+                <div class="col-md-2"> 
+                  <app-autocode-generate
+                  [itemName]="itemName"
+                  [IsAutoCode]="IsAutoCode" 
+                  (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+                  >
+                  </app-autocode-generate>
+                </div>
+              </div>
+            <div *ngIf="leaveTypeValidation[0]?.LeaveTypeName" class="form-group row" [class.has-success]="leaveTypeNameControl.valid&&leaveTypeNameControl.touched" [class.has-error]="leaveTypeNameControl.invalid&&leaveTypeNameControl.touched">
+                <label for="LeaveTypeName" class="col-sm-3 col-form-label control-label" [class.required]="leaveTypeNameControl.invalid">LeaveType Name</label>
+                <div class="col-sm-9" >
+                    <input class="form-control" [required]="leaveTypeValidation[0]?.LeaveTypeName&&leaveTypeValidation[1]?.LeaveTypeName" name="LeaveTypeName" #leaveTypeNameControl="ngModel" id="LeaveTypeName" [(ngModel)]="leaveType.LeaveTypeName">
+                    <span class="help-block" *ngIf="leaveTypeNameControl.invalid&&leaveTypeNameControl.touched">
+                        LeaveType name feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="leaveTypeValidation[0]?.IsPaid" class="form-group row" [class.has-success]="isPaidControl.valid&&isPaidControl.touched" [class.has-error]="isPaidControl.invalid&&isPaidControl.touched">
+                <label for="IsPaid" class="col-sm-3 col-form-label control-label" [class.required]="isPaidControl.invalid">Is paid</label>
+                <div class="col-sm-9" >
+                    <input type="checkbox" [required]="leaveTypeValidation[0]?.IsPaid&&leaveTypeValidation[1]?.IsPaid" name="IsPaid" #isPaidControl="ngModel" id="IsPaid" [(ngModel)]="leaveType.IsPaid">
+                    <span class="help-block" *ngIf="isPaidControl.invalid&&isPaidControl.touched">
+                      IsPaid feild is required
+                    </span>  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="leaveTypeForm.invalid" (click)="saveLeaveType()" value="{{leaveType.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!leaveTypeForm.dirty" (click)="clearLeaveType()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  

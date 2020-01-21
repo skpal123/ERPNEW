@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h6 style="text-align: center">Setting Sell Price</h6>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-md-6">
+            <div class="form-group row" >
+                <label for="sellPriceMethod" class="col-sm-3 col-form-label">Price Setting Method</label>
+                <div class="col-sm-9" >
+                    <select class="form-control" #sellPriceMethodControl="ngModel" [(ngModel)]="sellPriceMethod" id="sellPriceMethod">
+                        <option value="0">Select</option>
+                        <option value="1">FIFO</option>
+                        <option value="2">LIFO</option>
+                        <option value="3">Average</option>
+                  </select>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group row" >
+                <label for="Date" class="col-sm-3 col-form-label">Date</label>
+                <div class="col-sm-9" >
+                    <div class="row">
+                        <div class="col-md-10">
+                          <input style="margin-right: 0px" class="form-control" name="Date"
+                            #DateControl="ngModel" id="Date" [(ngModel)]="Date" matInput
+                            [matDatepicker]="myDatepicker">
+                        </div>
+                        <div style="margin-left: opx" class="col-md-2">
+                          <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+                          <mat-datepicker #myDatepicker [startAt]="startDate"> </mat-datepicker>
+                        </div>
+                      </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <app-dynamic-table-entry
+                [ColumnList]="columnlist" 
+                [Datalist]="DataList" 
+                (GetDatatableColumnTextClicked)="GetColumnValueClicked($event)"
+                (DeleteDataRowClicked)="deleteSettingSellPriceDetailsRow($event)"
+                >
+        </app-dynamic-table-entry>
+      <input type="button" class="btn btn-success pull-right" value="Save" (click)="SaveSettingSellPrice()">
+    </div>
+  </div>
+</div>

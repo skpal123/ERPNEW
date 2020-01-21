@@ -1,0 +1,13 @@
+.dropdown{
+    width: 200px;
+    overflow: hidden;
+}
+#dropdown select option:focus{
+    width: 200px;
+}
+.form-control{
+    height: 25px;;
+}
+#dropdown .form-control{
+    height: 29px;;
+}

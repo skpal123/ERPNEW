@@ -1,0 +1,89 @@
+<div [class.container]="addContainerClass1">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 style="text-align: center" class="panel-title">Voucher List
+            <app-custom-datatable-control-settings [userControlList]="userControlList">
+            </app-custom-datatable-control-settings>
+            <span class="pull-right" (click)="createNewVoucher()" id="pointer"><img height="30px" width="30px"
+                src="./assets/Img/addicon.png"></span>
+          </h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group row">
+                <label for="formDate" class="col-sm-3 col-form-label">From Date</label>
+                <div class="col-sm-9" id="startDateMargin">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <input class="form-control" name="formDate" #formDateControl="ngModel" id="formDate"
+                        [(ngModel)]="formDate" matInput [matDatepicker]="formDatePicker">
+                    </div>
+                    <div class="col-md-1">
+                      <mat-datepicker-toggle matSuffix [for]="formDatePicker"></mat-datepicker-toggle>
+                      <mat-datepicker #formDatePicker [startAt]="startDate"> </mat-datepicker>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" style="margin-left: 100">
+              <div class="form-group row">
+                <label for="toDate" class="col-sm-3 col-form-label">To Date</label>
+                <div class="col-sm-9" id="endDateMargin">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <input class="form-control" name="toDate" #toDateControl="ngModel" id="toDate"
+                        [(ngModel)]="toDate" matInput [matDatepicker]="toDatePicker">
+                    </div>
+                    <div class="col-md-2">
+                      <mat-datepicker-toggle matSuffix [for]="toDatePicker"></mat-datepicker-toggle>
+                      <mat-datepicker #toDatePicker [startAt]="startDate"> </mat-datepicker>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <input [ngClass]="allCheck?'btn btn-success': 'btn btn-primary'" type="button"
+                [value]="allCheck==true?'Approved all':'Deapproved all'">
+            </div>
+          </div>
+          <div *ngIf="reload&&columnReady&&dataReady">
+            <app-custom-datatable [DataList]="DataList" [reload]="reload" [ColumnList]="columnlist"
+              (EditSelectedRowClicked)="getVoucherDetails($event)" (DeleteDataRowClicked)="deleteVoucher($event)"
+              (CheckedAllItem)="CheckedAllVoucher($event)">
+            </app-custom-datatable>
+          </div>
+
+          <!-- <table class="table table-borderd">
+                              <thead>
+                                  <tr> 
+                                     <th>Voucher No</th>
+                                     <th>Voucher Type</th>
+                                     <th>Description</th>
+                                     <th>Amount</th>
+                                     <th>Status</th>
+                                  </tr>
+                              </thead>
+                             <tbody>
+                                  <tr *ngFor="let voucher of voucherList;let i=index;" id="pointer" (click)="getVoucherDetails(voucher.Id)">
+                                     
+                                     <td>{{voucher.VoucherNo}}</td>
+                                     <td *ngIf="voucher.VoucherType==0">CR</td>
+                                     <td *ngIf="voucher.VoucherType==1">CP</td>
+                                     <td *ngIf="voucher.VoucherType==2">BR</td>
+                                     <td>{{voucher.Particulars}}</td>
+                                     <td>{{voucher.Amount}}</td>
+                                     <td>{{voucher.VoucherStatus}}</td>
+                                  </tr>                 
+                             </tbody>
+                      </table> -->
+          <input type="button" value="open" (click)="open()">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

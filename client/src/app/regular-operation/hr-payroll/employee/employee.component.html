@@ -1,0 +1,11 @@
+<p>
+  employee works finaly!
+</p>
+<app-dynamic-form-builder
+[Datalist]="datalist" 
+[ColumnList]="columnlist"
+[SelectList]="deptList"
+(AutoCompleteDataSourceClicked)="ParentAutoCompleteDataSource($event)"
+>
+</app-dynamic-form-builder>
+<button (click)="CheckData()"> Check Data</button>

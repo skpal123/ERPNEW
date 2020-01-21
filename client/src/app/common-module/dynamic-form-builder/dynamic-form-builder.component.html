@@ -1,0 +1,27 @@
+<table datatable class="table table-bordered">
+  <thead>
+      <tr>
+          <td *ngFor="let col of ColumnList;let i=index;">
+            {{col.LabelName}}
+          </td>
+        </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of Datalist;let i=index;">
+      <td *ngFor="let col2 of ColumnList">
+        name
+          <!-- <div *ngIf="!col2.Editable">
+              {{Datalist[i][col2.Name]}}
+          </div>
+        <div *ngIf="col2.Editable">
+            <input *ngIf="col2.Type=='text'" name="" class="form-control" [(ngModel)]="Datalist[i][col2.Name]" type="text">
+            <input *ngIf="col2.Type=='number'" class="form-control" [(ngModel)]="Datalist[i][col2.Name]" type="number">
+            <select class="form-control" *ngIf="col2.Type=='select'" (change)="onchange($event)" [(ngModel)]="Datalist[i][col2.Name]">
+              <option [value]="select.Id" *ngFor="let select of SelectList">{{select.Name}}</option>
+            </select>
+            <!-- <input *ngIf="col2.Type=='checkbox'" class="form-control" [(ngModel)]="Datalist[i][col2.Name]" type="number"> -->
+
+      </td>
+    </tr>
+  </tbody>
+</table>

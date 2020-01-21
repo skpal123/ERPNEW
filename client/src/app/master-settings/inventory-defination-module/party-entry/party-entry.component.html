@@ -1,0 +1,97 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Party entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #partyForm="ngForm">
+              <div class="form-group row" [class.has-success]="PartyIdControl.valid" [class.has-error]="PartyIdControl.invalid&&PartyIdControl.touched">
+                  <label for="partyId" class="col-sm-4 col-form-label">Party Id</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" required name="partyId" #PartyIdControl="ngModel" id="partyId" [(ngModel)]="party.PartyId">
+                      <span class="help-block" *ngIf="PartyIdControl.invalid&&PartyIdControl.touched">
+                        Party Id feild is required
+                      </span>  
+                  </div>
+                </div>
+              <div class="form-group row" [class.has-success]="partyNameControl.valid" [class.has-error]="partyNameControl.invalid&&partyNameControl.touched">
+                  <label for="partyName" class="col-sm-4 col-form-label">Party Name</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" required name="partyName" #partyNameControl="ngModel" id="partyName" [(ngModel)]="party.PartyName">
+                      <span class="help-block" *ngIf="partyNameControl.invalid&&partyNameControl.touched">
+                          Party name feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="ContactPersonControl.valid" [class.has-error]="ContactPersonControl.invalid&&ContactPersonControl.touched">
+                  <label for="ContactPerson" class="col-sm-4 col-form-label">Contact Person</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" name="ContactPerson" #ContactPersonControl="ngModel" id="ContactPerson" [(ngModel)]="party.ContactPerson">
+                      <span class="help-block" *ngIf="ContactPersonControl.invalid&&ContactPersonControl.touched">
+                        Contact Person feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="EmailControl.valid" [class.has-error]="EmailControl.invalid&&EmailControl.touched">
+                  <label for="Email" class="col-sm-4 col-form-label">Email</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" name="Email" #EmailControl="ngModel" id="Email" [(ngModel)]="party.Email">
+                      <span class="help-block" *ngIf="EmailControl.invalid&&EmailControl.touched">
+                        Email feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="PhoneNoControl.valid" [class.has-error]="PhoneNoControl.invalid&&PhoneNoControl.touched">
+                  <label for="PhoneNo" class="col-sm-4 col-form-label">Phone no</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" required name="PhoneNo" #PhoneNoControl="ngModel" id="PhoneNo" [(ngModel)]="party.PhoneNo">
+                      <span class="help-block" *ngIf="PhoneNoControl.invalid&&PhoneNoControl.touched">
+                        Phone no feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="AddressControl.valid" [class.has-error]="AddressControl.invalid&&AddressControl.touched">
+                  <label for="Address" class="col-sm-4 col-form-label">Address</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" required name="Address" #AddressControl="ngModel" id="Address" [(ngModel)]="party.Address">
+                      <span class="help-block" *ngIf="AddressControl.invalid&&AddressControl.touched">
+                        Address feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="ledgerIdControl.valid" [class.has-error]="ledgerIdControl.invalid&&ledgerTouch">
+                  <label for="ledgerId" class="col-sm-4 col-form-label">Ledger Name</label>
+                  <div class="col-sm-7" >
+                    <input style="display: none;" class="form-control" required name="ledgerIdControl" #ledgerIdControl="ngModel" [(ngModel)]="party.Ledger_Id">
+                    <app-ledger-dropdown 
+                     (ledgerOnItemSelect)="ledgerOnSeletedItem($event)" 
+                     [ledgerSelectedItems]="ledgerSelectedItems">
+                    </app-ledger-dropdown> 
+                     <span class="help-block" *ngIf="ledgerIdControl.invalid&&ledgerTouch">
+                        Ledger name is required
+                    </span> 
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="subledgerId" class="col-sm-4 col-form-label">Subledger Name</label>
+                  <div class="col-sm-7" >
+                     <app-subledger-dropdown 
+                     [ledgerId]="party.Ledger_Id" 
+                     (subledgerOnItemSelect)="subledgerOnSeletedItem($event)" 
+                     [subledgerSelectedItems]="subledgerSelectedItems">
+                    </app-subledger-dropdown> 
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="partyForm.invalid" (click)="saveItem()" value="Save" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

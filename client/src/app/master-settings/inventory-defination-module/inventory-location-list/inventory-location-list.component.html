@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 style="text-align: center" class="panel-title">Location List 
+                    <app-custom-datatable-control-settings [userControlList]="userControlList"></app-custom-datatable-control-settings>
+                    <span class="pull-right" (click)="createNewLocation()" id="pointer">
+                      <img height="30px" width="30px" src="./assets/Img/addicon.png">
+                    </span>
+              </h3>
+            </div>           
+            <div class="panel-body" *ngIf="reload&&columnReady&&dataReady">
+              <app-custom-datatable 
+              [DataList]="DataList" 
+              [reload]="reload"
+              [ColumnList]="ColumnList"
+              (EditSelectedRowClicked)="getLocationDetails($event)"
+              (DeleteDataRowClicked)="deleteLocation($event)"
+              >
+              </app-custom-datatable>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>

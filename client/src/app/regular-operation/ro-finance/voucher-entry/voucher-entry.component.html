@@ -1,0 +1,52 @@
+<div class="panel panel-success">
+    <div class="panel-heading">
+      <h3 class="panel-title">Voucher entry
+          <button type="button" class="close pull-right" (click)="onNoClick()">&times;</button>
+      </h3>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-md-8">
+          <app-voucher-list></app-voucher-list>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+            <form #UserForm="ngForm">
+                <!-- <div class="form-group row" [class.has-success]="RoleNameControl.valid" [class.has-error]="RoleNameControl.invalid&&RoleNameControl.touched">
+                    <label for="RoleName" class="col-sm-2 col-form-label">Role Name</label>
+                        <div class="col-sm-10">
+                            <input #RoleNameControl="ngModel" required name="RoleName" type="text" [(ngModel)]="rolePermissionData.role.RoleName" class="form-control"
+                            placeholder="Role Name">
+                            <span class="help-block" *ngIf="RoleNameControl.invalid&&RoleNameControl.touched">
+                                Role Name feild is required
+                           </span>        
+                    </div>
+                </div>
+                <div class="form-group row" [class.has-success]="DescriptionControl.valid" [class.has-error]="DescriptionControl.invalid&&DescriptionControl.touched">
+                          <label for="Description" class="col-sm-2 col-form-label">Description</label>
+                          <div class="col-sm-10">
+                              <textarea #DescriptionControl="ngModel" required name="Description" [(ngModel)]="rolePermissionData.role.Description" class="form-control"
+                                placeholder="Description"></textarea>
+                                <span class="help-block" *ngIf="DescriptionControl.invalid&&DescriptionControl.touched">
+                                    Description feild is required
+                                </span>       
+                            </div>
+                </div>
+                <div class="form-group row" [class.has-success]="RoleNameControl.valid" [class.has-error]="RoleNameControl.invalid&&RoleNameControl.touched">
+                    <label for="Status" class="col-sm-2 col-form-label">Status</label>
+                    <div class="col-sm-10">
+                        <input #StatusControl="ngModel" name="Status" type="checkbox" [(ngModel)]="role.Status">      
+                    </div>
+                </div>
+
+                <div class="row">  
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <input [disabled]="UserForm.invalid" type="button" value="Save" class="btn btn-success" (click)="saveRolePermission()">
+                        </div>
+                    </div>
+                </div> -->
+            </form>
+    </div>
+</div>
+

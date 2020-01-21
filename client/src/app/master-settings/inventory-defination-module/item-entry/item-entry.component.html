@@ -1,0 +1,152 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Item entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #itemForm="ngForm">
+              <div class="form-group row" *ngIf="itemValidation[0]?.ItemId" [class.has-success]="itemIdControl.valid&&itemIdControl.touched" [class.has-error]="itemIdControl.invalid&&itemIdControl.touched">
+                  <label for="itemId" class="col-sm-4 col-form-label control-label " [class.required]="itemIdControl.invalid">Item Id</label>
+                  <div class="col-sm-6" >
+                      <input class="form-control" [required]="itemValidation[0]?.ItemId&&itemValidation[1]?.ItemId" name="itemId" #itemIdControl="ngModel" id="itemId" [(ngModel)]="item.ItemId">
+                      <span class="help-block" *ngIf="itemIdControl.errors?.required&&itemIdControl.touched">
+                        Item Id feild is required
+                      </span>  
+                  </div>
+                  <div class="col-md-2"> 
+                      <app-autocode-generate
+                      [itemName]="itemName1"
+                      [IsAutoCode]="IsAutoCode1"
+                      (getGenerateAutoCode)="parentGetGeneratedCode1($event)"
+                      >
+                      </app-autocode-generate>
+                    </div>
+                </div>
+                <div class="form-group row" *ngIf="itemValidation[0]?.ItemCode" [class.has-success]="itemCodeControl.valid&&itemCodeControl.touched" [class.has-error]="itemCodeControl.invalid&&itemCodeControl.touched">
+                  <label for="itemCode" class="col-sm-4 col-form-label control-label" [class.required]="itemCodeControl.invalid">Item Code</label>
+                  <div class="col-sm-6" >
+                      <input class="form-control" [required]="itemValidation[0]?.ItemCode&&itemValidation[1]?.ItemCode" name="itemCode" #itemCodeControl="ngModel" id="itemCode" [(ngModel)]="item.ItemCode">
+                      <span class="help-block" *ngIf="itemCodeControl.errors?.required&&itemCodeControl.touched">
+                        Item Code feild is required
+                      </span>  
+                  </div>
+                  <div class="col-md-2"> 
+                      <app-autocode-generate
+                      [itemName]="itemName2"
+                      [IsAutoCode]="IsAutoCode2"
+                      (getGenerateAutoCode)="parentGetGeneratedCode2($event)"
+                      >
+                      </app-autocode-generate>
+                    </div>
+                </div>
+              <div class="form-group row" *ngIf="itemValidation[0]?.ItemName" [class.has-success]="itemNameControl.valid&&itemNameControl.touched" [class.has-error]="itemNameControl.invalid&&itemNameControl.touched">
+                  <label for="itemName" class="col-sm-4 col-form-label control-label" [class.required]="itemNameControl.invalid">Item Name</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="itemValidation[0]?.ItemName&&itemValidation[1]?.ItemName" name="itemName" #itemNameControl="ngModel" id="itemName" [(ngModel)]="item.ItemName">
+                      <span class="help-block" *ngIf="itemNameControl.errors?.required&&itemNameControl.touched">
+                          Item name feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="itemValidation[0]?.Category_Id" [class.has-success]="categoryIdControl.valid&&categoryTouch" [class.has-error]="categoryIdControl.invalid&&categoryTouch">
+                  <label for="categoryId" class="col-sm-4 col-form-label control-label" [class.required]="categoryIdControl.invalid">Category Name</label>
+                  <div class="col-sm-7" >
+                     <input style="display: none;" class="form-control" [required]="itemValidation[0]?.Category_Id&&itemValidation[1]?.Category_Id" name="categoryId" #categoryIdControl="ngModel" [(ngModel)]="item.Category_Id">
+                     <app-category-dropdown 
+                     (categoryOnItemSelect)="CategoryOnSeletedItem($event)" 
+                     (categoryOnItemDeSelect)="OnDeSeletedItem($event)"
+                      [categorySelectedItems]="categorySelectedItems"
+                      [IsNewCategoryAdd]="categoryNew"
+                      >
+                     </app-category-dropdown> 
+                     <span class="help-block" *ngIf="categoryIdControl.errors?.required&&categoryTouch">
+                        Category name is required
+                    </span>  
+                  </div>
+                  <div class="col-md-1">
+                      <span id="pointer" (click)="createNewCategory()">
+                          <img height="30px" width="30px" src="./assets/Img/addicon.png">
+                      </span>
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="itemValidation[0]?.SubCategory_Id" [class.has-success]="subcategoryIdControl.valid&&subcategoryTouch" [class.has-error]="subcategoryIdControl.invalid&&subcategoryTouch">
+                  <label for="categoryId" class="col-sm-4 col-form-label control-label" [class.required]="subcategoryIdControl.invalid">Sub Category Name</label>
+                  <div class="col-sm-7" >
+                      <input style="display: none;" class="form-control" [required]="itemValidation[0]?.SubCategory_Id&&itemValidation[1]?.SubCategory_Id" name="subcategoryId" #subcategoryIdControl="ngModel" [(ngModel)]="item.SubCategory_Id">
+                     <app-subcategory-dropdown 
+                     [categoryId]="item.Category_Id" 
+                     [IsNewSubCategory]="subcategoryNew"
+                     [subcategorySelectedItems]="subcategorySelectedItems" 
+                     (subcategoryOnItemSelect)="SubCategoryOnSeletedItem($event)">
+                    </app-subcategory-dropdown> 
+                    <span class="help-block" *ngIf="subcategoryIdControl.errors?.required&&subcategoryTouch">
+                        Subcategory name is required
+                    </span>  
+                  </div>
+                  <div class="col-md-1">
+                      <span id="pointer" (click)="createNewSubCategory()" >
+                          <img height="30px" width="30px" src="./assets/Img/addicon.png">
+                      </span>
+                    </div>
+                </div>
+                <div class="form-group row" *ngIf="itemValidation[0]?.UnitId" [class.has-success]="unitIdControl.valid&&unitTouch" [class.has-error]="unitIdControl.invalid&&unitTouch">
+                  <label for="unitId" class="col-sm-4 col-form-label control-label" [class.required]="unitIdControl.invalid">Unit Name</label>
+                  <div class="col-sm-7" >
+                      <input style="display: none;" class="form-control" [required]="itemValidation[0]?.UnitId&&itemValidation[1]?.UnitId" name="UnitId" #unitIdControl="ngModel" [(ngModel)]="item.UnitId">
+                     <app-unit-dropdown 
+                     (unitOnItemSelect)="unitOnSeletedItem($event)"
+                      (unitOnItemDeSelect)="unitOnDeSeletedItem($event)" 
+                      [IsNewUnitAdd]="unitNew"
+                      [unitSelectedItems]="unitSelectedItems">
+                     </app-unit-dropdown> 
+                     <span class="help-block" *ngIf="unitIdControl.errors?.required&&unitTouch">
+                        Unit name is required
+                    </span>  
+                  </div>
+                  <div class="col-md-1">
+                      <span id="pointer" (click)="createNewUnit()" >
+                          <img height="30px" width="30px" src="./assets/Img/addicon.png">
+                      </span>
+                    </div>
+                </div>
+                <div class="form-group row" *ngIf="itemValidation[0]?.Ledger_Id" [class.has-success]="ledgerIdControl.valid&&ledgerTouch" [class.has-error]="ledgerIdControl.invalid&&ledgerTouch">
+                  <label for="ledgerId" class="col-sm-4 col-form-label control-label" [class.required]="ledgerIdControl.invalid">Ledger Name</label>
+                  <div class="col-sm-7" >
+                      <input style="display: none;" class="form-control" [required]="itemValidation[0]?.Ledger_Id&&itemValidation[1]?.Ledger_Id" name="ledgerIdControl" #ledgerIdControl="ngModel" [(ngModel)]="item.Ledger_Id">
+                     <app-ledger-dropdown 
+                     [allLedger]="allLedger"
+                     (ledgerOnItemSelect)="ledgerOnSeletedItem($event)" 
+                     [ledgerSelectedItems]="ledgerSelectedItems">
+                    </app-ledger-dropdown> 
+                     <span class="help-block" *ngIf="ledgerIdControl.errors?.required&&ledgerTouch">
+                        Ledger name is required
+                    </span> 
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="itemValidation[0]?.SubLedger_Id">
+                  <label for="unitId" class="col-sm-4 col-form-label control-label">Subledger Name</label>
+                  <div class="col-sm-7" >
+                     <app-subledger-dropdown 
+                     [ledgerId]="item.Ledger_Id" 
+                     (subledgerOnItemSelect)="subledgerOnSeletedItem($event)" 
+                     (subledgerOnItemDeSelect)="subledgerOnDeSeletedItem($event)"
+                      [subledgerSelectedItems]="subledgerSelectedItems"></app-subledger-dropdown> 
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="itemForm.invalid" (click)="saveItem()" value="{{item.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!itemForm.dirty" (click)="clearItem()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

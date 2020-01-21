@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 style="text-align: center" class="panel-title">Item List 
+                    <app-custom-datatable-control-settings [userControlList]="userControlList"></app-custom-datatable-control-settings>
+                  <span (click)="createNewItem()" id="pointer" class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+                </h3>
+            </div>           
+            <div class="panel-body" *ngIf="reload&&columnReady&&dataReady">
+              <app-custom-datatable
+              [reload]="reload"
+              [DataList]="DataList" 
+              [ColumnList]="ColumnList"
+              (EditSelectedRowClicked)="getItemDetails($event)"
+              (DeleteDataRowClicked)="deleteItem($event)"
+              >
+              </app-custom-datatable>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>

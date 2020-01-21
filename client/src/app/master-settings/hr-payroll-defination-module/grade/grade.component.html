@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Grade entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #gradeForm="ngForm">
+            <div class="form-group row" *ngIf="gradeValidation[0]?.GradeId" [class.has-success]="gradeIdControl.valid&&gradeIdControl.touched" [class.has-error]="gradeIdControl.invalid&&gradeIdControl.touched">
+                <label for="gradeId" class="col-sm-3 col-form-label control-label" [class.required]="gradeIdControl.invalid">Grade id</label>
+                <div class="col-sm-7" >
+                    <input class="form-control" gradeCheck [required]="gradeValidation[0]?.GradeId&&gradeValidation[1]?.GradeId" name="gradeId" #gradeIdControl="ngModel" id="gradeId" [(ngModel)]="grade.GradeId">
+                    <span class="help-block" *ngIf="gradeIdControl.errors?.required&&gradeIdControl.touched">
+                        Grade id feild is required  
+                    </span>
+                    <span class="help-block" *ngIf="gradeIdControl.errors?.exists&&gradeIdControl.touched">
+                      Grade id already taken
+                    </span>
+                </div>
+                <div class="col-md-2"> 
+                  <app-autocode-generate
+                  [itemName]="itemName"
+                  [IsAutoCode]="IsAutoCode" 
+                  (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+                  >
+                  </app-autocode-generate>
+                </div>
+              </div>
+            <div *ngIf="gradeValidation[0]?.GradeName" class="form-group row" [class.has-success]="gradeNameControl.valid&&gradeNameControl.touched" [class.has-error]="gradeNameControl.invalid&&gradeNameControl.touched">
+                <label for="GradeName" class="col-sm-3 col-form-label control-label" [class.required]="gradeNameControl.invalid">Grade Name</label>
+                <div class="col-sm-9" >
+                    <input class="form-control" [required]="gradeValidation[0]?.GradeName&&gradeValidation[1]?.GradeName" name="GradeName" #gradeNameControl="ngModel" id="GradeName" [(ngModel)]="grade.GradeName">
+                    <span class="help-block" *ngIf="gradeNameControl.invalid&&gradeNameControl.touched">
+                        Grade name feild is required
+                    </span>  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="gradeForm.invalid" (click)="saveGrade()" value="{{grade.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!gradeForm.dirty" (click)="clearGrade()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  

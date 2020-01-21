@@ -1,0 +1,7 @@
+<p>
+  postlogin works!  
+</p>
+
+<button *ngFor="let branch of BranchList" (click)="loadModules(branch.Id)">{{branch.BranchName}}</button>
+<input type="button" value="Ecommerce admin panel"  (click)="loadEcommerceAdminPanel()"> 
+<router-outlet></router-outlet>  

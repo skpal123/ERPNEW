@@ -1,0 +1,193 @@
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title">Voucher entry
+      <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+      <app-custom-datatable-control-settings [userControlList]="userControlList">
+      </app-custom-datatable-control-settings>
+    </h3>
+  </div>
+  <div class="panel-body">
+    <form #UserForm="ngForm">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <div class="form-group row">
+                <label for="voucherDate" class="col-sm-4 col-md-offset-1 col-form-label">Voucher Date</label>
+                <div class="col-sm-6">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <input style="margin-right: 0px" class="form-control" name="voucherDate1"
+                        #voucherDateControl="ngModel" id="voucherDate" [(ngModel)]="vDate" matInput
+                        [matDatepicker]="myDatepicker">
+                    </div>
+                    <div style="margin-left: opx" class="col-md-2">
+                      <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+                      <mat-datepicker #myDatepicker [startAt]="startDate"> </mat-datepicker>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="voucherNo" class="col-sm-4 col-md-offset-1 col-form-label">Voucher No</label>
+                <div class="col-sm-6">
+                  <input type="text" name="voucherNo" #voucherNoControl="ngModel" [(ngModel)]="voucher.VoucherNo"
+                    readonly class="form-control" id="voucherNo" placeholder="">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="chequeNo" class="col-sm-4 col-md-offset-1 col-form-label">Cheque No</label>
+                <div class="col-sm-6">
+                  <input type="text" name="chequeNo" #chequeNoControl="ngModel" [(ngModel)]="voucher.ChequeNo" readonly
+                    class="form-control" id="chequeNo" value="">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="chequeDate" class="col-sm-4 col-md-offset-1 col-form-label">Cheque Date</label>
+                <div class="col-sm-6" id="">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <input class="form-control" name="chequeDate" #chequeDateControl="ngModel" id="voucherDate"
+                        [(ngModel)]="cDate" matInput [matDatepicker]="chequeDatepicker">
+                    </div>
+                    <div class="col-md-2">
+                      <mat-datepicker-toggle matSuffix [for]="chequeDatepicker"></mat-datepicker-toggle>
+                      <mat-datepicker #chequeDatepicker [startAt]="startDate"> </mat-datepicker>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="bankName" class="col-sm-4 col-md-offset-1 col-form-label">Bank Name</label>
+                <div class="col-sm-6" id="">
+                  <input type="text" name="bankName" #bankNameControl="ngModel" [(ngModel)]="voucher.VoucherBankName" readonly
+                    class="form-control" id="bankName" value="">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="bankAccountNo" class="col-sm-5 col-form-label">Bank account no</label>
+                <div class="col-sm-6" id="">
+                  <input type="text" name="bankAccountNo" #bankAccountNoControl="ngModel"
+                    [(ngModel)]="voucher.BankAccountNo" readonly class="form-control" id="bankAccountNo" value="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="panel panel-primary">
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <label class="radio-inline">
+                        <input type="radio" (change)="voucherTypeChange(voucher.VoucherType)" name="voucherType"
+                          [(ngModel)]="voucher.VoucherType" #voucherTypeControl="ngModel" value="0">CR<br>
+                      </label>
+                    </div>
+                    <div class="col-md-1">
+                      <label class="radio-inline">
+                        <input type="radio" (change)="voucherTypeChange(voucher.VoucherType)" name="voucherType"
+                          [(ngModel)]="voucher.VoucherType" #voucherTypeControl="ngModel" value="1">CP<br>
+                      </label>
+                    </div>
+                    <div class="col-md-1">
+                      <label class="radio-inline">
+                        <input type="radio" name="voucherType" (change)="voucherTypeChange(voucher.VoucherType)"
+                          [(ngModel)]="voucher.VoucherType" #voucherTypeControl="ngModel" value="2">BR<br>
+                      </label>
+                    </div>
+                    <div class="col-md-1">
+                      <label class="radio-inline">
+                        <input type="radio" name="voucherType" (change)="voucherTypeChange(voucher.VoucherType)"
+                          [(ngModel)]="voucher.VoucherType" #voucherTypeControl="ngModel" value="3">BP<br>
+                      </label>
+                    </div>
+                    <div class="col-md-1">
+                      <label class="radio-inline">
+                        <input type="radio" name="voucherType" (change)="voucherTypeChange(voucher.VoucherType)"
+                          [(ngModel)]="voucher.VoucherType" #voucherTypeControl="ngModel" value="4">AR<br>
+                      </label>
+                    </div>
+                    <div class="col-md-1">
+                      <label class="radio-inline">
+                        <input type="radio" name="voucherType" (change)="voucherTypeChange(voucher.VoucherType)"
+                          [(ngModel)]="voucher.VoucherType" #voucherTypeControl="ngModel" value="5">AP<br>
+                      </label>
+                    </div>
+                    <div class="col-md-1">
+                      <label class="radio-inline">
+                        <input type="radio" name="voucherType" (change)="voucherTypeChange(voucher.VoucherType)"
+                          [(ngModel)]="voucher.VoucherType" #voucherTypeControl="ngModel" value="6">JV<br>
+                      </label>
+                    </div>
+                    <div class="col-md-3">
+                      <label class="radio-inline">
+                        <input type="radio" name="voucherType" (change)="voucherTypeChange(voucher.VoucherType)"
+                          [(ngModel)]="voucher.VoucherType" #voucherTypeControl="ngModel" value="7">Contra<br>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="panel panel-primary">
+                <div class="panel-body">
+                  <div class="col-md-12">
+                    <div class="form-group row">
+                      <label for="cashBook" class="col-md-4 col-md-offset-1">Cash book</label>
+                      <div class="col-sm-6 " id="dropdown">
+                        <select class="form-control" name="cashBook" #cashBookControl="ngModel"
+                          [(ngModel)]="voucher.VoucherDetailsList[0].AccountId" id="voucherDate">
+                          <option *ngFor="let account of debitAcccountList" [value]="account.Id">
+                            {{account.ManualAccountCode+"-"+account.AccountDescription}}</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <app-dynamic-table-entry 
+                 [ColumnList]="columnlist" 
+                 [Datalist]="DataList"
+                [AutoCompleteDataSource]="autoCompleteData" 
+                (AddNewRow)="addNewVoucherEntry()"
+                (GetDatatableColumnTextClicked)="GetDatatableColumnTextClicked($event)"
+                (AutoCompleteDataSourceClicked)="ParentAutoCompleteDataSource($event)"
+                (DeleteDataRowClicked)="deleteVoucherDetailsRow($event)">
+              </app-dynamic-table-entry>
+            </div>
+            <div class="row" style="margin-top: -20px">
+              <div class="col-md-4 pull-right">
+                <div class="form-group row">
+                  <label for="bankAccountNo" class="col-sm-5 col-form-label">Total Amount</label>
+                  <div class="col-sm-6" id="">
+                    <input type="text" name="TotalAmount" [(ngModel)]="TotalAmount" readonly class="form-control">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 pull-right">
+          <input type="button" value="Save voucher" class="btn btn-success" (click)="saveVoucher()">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

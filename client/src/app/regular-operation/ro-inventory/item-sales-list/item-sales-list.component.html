@@ -1,0 +1,23 @@
+
+    <div class="row">
+      <div class="col-md-12">
+          <div  class="panel panel-success">
+              <div class="panel-heading">
+                  <h3 style="text-align: center;" class="panel-title">Sales group item list
+                        <app-custom-datatable-control-settings [userControlList]="userControlList"></app-custom-datatable-control-settings>
+                        <span (click)="createGroupItem()" title="Create new purchase transaction" id="pointer" class="pointer pull-right" aria-hidden="true"><img height="30px" width="30px" src="./assets/Img/addicon.png"></span>
+                  </h3>
+              </div>           
+              <div class="panel-body" *ngIf="reload&&columnReady&&dataReady">
+                <app-custom-datatable
+                 [DataList]="DataList" 
+                 [reload]="reload"
+                 [ColumnList]="ColumnList"
+                (EditSelectedRowClicked)="getGroupItemDetails($event)"
+                (DeleteDataRowClicked)="deleteGroupItem($event)"
+                >
+                </app-custom-datatable>
+              </div>
+          </div>
+      </div>
+    </div>  

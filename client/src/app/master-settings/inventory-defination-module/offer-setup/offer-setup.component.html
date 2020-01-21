@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="form-group row" [class.has-success]="offerSettingsControl.valid">
+            <label class="col-sm-2 control-label" for="offerSettings">Offer Settings</label>
+            <div class="col-sm-7">
+              <label class="radio-inline">
+                <input type="radio" name="offerSettings" [(ngModel)]="offerSettings" #offerSettingsControl="ngModel"
+                  value="customer-wise">Customer wise<br>
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="offerSettings" [(ngModel)]="offerSettings" #offerSettingsControl="ngModel"
+                  value="product-wise">Product wise<br>
+              </label>
+            </div>
+          </div>
+    </div>
+  </div>
+  <div class="row" *ngIf="offerSettings=='product-wise'">
+    <div class="col-md-12" *ngIf="dataReady&&columnReady">
+      <app-dynamic-table-entry 
+      [ColumnList]="ColumnList" 
+      [Datalist]="DataList"
+      [reload]="reload"
+      [selectList]="selectList">
+    </app-dynamic-table-entry>
+    </div>
+  </div>
+  <div class="row"  *ngIf="offerSettings=='customer-wise'">
+    <div class="col-md-12" *ngIf="dataReady&&columnReady">
+      <div class="col-md-12">
+        <app-dynamic-table-entry 
+        [ColumnList]="ColumnList" 
+        [Datalist]="DataList"
+        [selectList]="selectList"
+        [reload]="reload">
+      </app-dynamic-table-entry>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,81 @@
+<div class="panel panel-success">
+    <div class="panel-heading">
+      <h3 class="panel-title">Role permission
+          <button type="button" class="close pull-right" (click)="onNoClick()">&times;</button>
+      </h3>
+    </div>
+    <div class="panel-body">
+            <form #UserForm="ngForm">
+                <div class="form-group row" [class.has-success]="RoleNameControl.valid" [class.has-error]="RoleNameControl.invalid&&RoleNameControl.touched">
+                    <label for="RoleName" class="col-sm-2 col-form-label">Role Name</label>
+                        <div class="col-sm-10">
+                            <input #RoleNameControl="ngModel" required name="RoleName" type="text" [(ngModel)]="rolePermissionData.role.RoleName" class="form-control"
+                            placeholder="Role Name">
+                            <span class="help-block" *ngIf="RoleNameControl.invalid&&RoleNameControl.touched">
+                                Role Name feild is required
+                           </span>        
+                    </div>
+                </div>
+                      <div class="form-group row" [class.has-success]="DescriptionControl.valid" [class.has-error]="DescriptionControl.invalid&&DescriptionControl.touched">
+                          <label for="Description" class="col-sm-2 col-form-label">Description</label>
+                          <div class="col-sm-10">
+                              <textarea #DescriptionControl="ngModel" required name="Description" [(ngModel)]="rolePermissionData.role.Description" class="form-control"
+                                placeholder="Description"></textarea>
+                                <span class="help-block" *ngIf="DescriptionControl.invalid&&DescriptionControl.touched">
+                                    Description feild is required
+                                </span>       
+                            </div>
+                        </div>
+                        <div class="form-group row" [class.has-success]="RoleNameControl.valid" [class.has-error]="RoleNameControl.invalid&&RoleNameControl.touched">
+                            <label for="Status" class="col-sm-2 col-form-label">Status</label>
+                            <div class="col-sm-10">
+                                <input #StatusControl="ngModel" name="Status" type="checkbox" [(ngModel)]="role.Status">      
+                              </div>
+                          </div>
+                  <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Role permission
+                        </h3>
+                      </div>
+                      <div class="panel-body">
+                          <div class="tree">  
+                              <ul *ngFor="let ca of rolePermissionData.tree">
+                                  <li [class.pointer]="ca.Children">
+                                    <span (click)="showCategory(ca.Id)" Class="glyphicon glyphicon-play"></span>
+                                    <input type="checkbox" (change)="checkChildNode(ca,$event)" [value]="ca.Id" [checked]="ca.Checked"  name="category" >
+                                    <span (click)="selectedNode(ca)">{{ca.Name}}</span>
+                                    <ul *ngFor="let subca of ca.Children">
+                                       <li [class.pointer]="subca.Children" *ngIf="subca.Status">
+                                          <span Class="glyphicon glyphicon-play" (click)="showSubCategory(subca.Id)"></span>
+                                          <input type="checkbox" (change)="checkChildNode(subca,$event)" [value]="subca.Id" name="subcategory"  [checked]="subca.Checked"><span (click)="selectedNode(subca)" >{{subca.Name}}</span>
+                                          <ul *ngFor="let item of subca.Children">
+                                              <li (click)="showItem(item.Id)" *ngIf="item.Status">
+                                                <span (click)="showSubItem(item.Id)" Class="glyphicon glyphicon-play"></span>
+                                                <input type="checkbox" (change)="checkChildNode(item,$event)" [value]="item.Id" name="item" [checked]="item.Checked">
+                                                 <span (click)="selectedNode(item)">{{item.Name}}</span>
+                                                 <ul *ngFor="let subitem of item.Children">
+                                                  <li (click)="showSubItem(subitem.Id)" *ngIf="subitem.Status">
+                                                     <input type="checkbox" (change)="checkChildNode(subitem,$event)" [value]="subitem.Id" [checked]="subitem.Checked" name="subitem">
+                                                     <span  [ngClass]="subitem.Checked?'btn-success': 'btn-primary'" (click)="selectedNode(subitem)">{{subitem.Name}}</span>
+                                                  </li>
+                                              </ul>
+                                              </li>
+                                          </ul>
+                                       </li>
+                                    </ul>
+                                  </li>
+                              </ul>
+                            </div> 
+                      </div>
+                  </div>
+                  <div class="row">  
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <input [disabled]="UserForm.invalid" type="button" value="Save" class="btn btn-success" (click)="saveRolePermission()">
+                        </div>
+                    </div>
+                </div>
+            </form>
+    </div>
+</div>
+

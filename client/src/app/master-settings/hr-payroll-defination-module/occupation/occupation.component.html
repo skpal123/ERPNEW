@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Occupation entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #occupationForm="ngForm">
+            <div class="form-group row" *ngIf="occupationValidation[0]?.OccupationId" [class.has-success]="occupationIdControl.valid&&occupationIdControl.touched" [class.has-error]="occupationIdControl.invalid&&occupationIdControl.touched">
+                <label for="occupationId" class="col-sm-3 col-form-label control-label" [class.required]="occupationIdControl.invalid">Occupation id</label>
+                <div class="col-sm-7" >
+                    <input class="form-control" occupationCheck [required]="occupationValidation[0]?.OccupationId&&occupationValidation[1]?.OccupationId" name="occupationId" #occupationIdControl="ngModel" id="occupationId" [(ngModel)]="occupation.OccupationId">
+                    <span class="help-block" *ngIf="occupationIdControl.errors?.required&&occupationIdControl.touched">
+                        Occupation id feild is required  
+                    </span>
+                    <span class="help-block" *ngIf="occupationIdControl.errors?.exists&&occupationIdControl.touched">
+                      Occupation id already taken
+                    </span>
+                </div>
+                <div class="col-md-2"> 
+                  <app-autocode-generate
+                  [itemName]="itemName"
+                  [IsAutoCode]="IsAutoCode" 
+                  (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+                  >
+                  </app-autocode-generate>
+                </div>
+              </div>
+            <div *ngIf="occupationValidation[0]?.OccupationName" class="form-group row" [class.has-success]="occupationNameControl.valid&&occupationNameControl.touched" [class.has-error]="occupationNameControl.invalid&&occupationNameControl.touched">
+                <label for="OccupationName" class="col-sm-3 col-form-label control-label" [class.required]="occupationNameControl.invalid">Occupation Name</label>
+                <div class="col-sm-9" >
+                    <input class="form-control" [required]="occupationValidation[0]?.OccupationName&&occupationValidation[1]?.OccupationName" name="OccupationName" #occupationNameControl="ngModel" id="OccupationName" [(ngModel)]="occupation.OccupationName">
+                    <span class="help-block" *ngIf="occupationNameControl.invalid&&occupationNameControl.touched">
+                        Occupation name feild is required
+                    </span>  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="occupationForm.invalid" (click)="saveOccupation()" value="{{occupation.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!occupationForm.dirty" (click)="clearOccupation()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  

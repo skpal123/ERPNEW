@@ -1,0 +1,63 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h5>Subledger entry
+        <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+        <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+    </h5>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-7" *ngIf="reload&&columnReady&&dataReady">
+        <app-custom-datatable 
+        [DataList]="DataList" 
+        [ColumnList]="ColumnList"
+        [reload]="reload"
+        (EditSelectedRowClicked)="getSubledgerDetailsById($event)"
+        (DeleteDataRowClicked)="deleteSubledger($event)"
+        >
+        </app-custom-datatable>
+      </div>
+      <div class="col-md-5">
+        <form #subledgerForm="ngForm">
+        <div *ngIf="subledgerValidation[0]?.SublederCode" class="form-group row" [class.has-success]="sublederCodeControl.valid" [class.has-error]="sublederCodeControl.invalid&&sublederCodeControl.touched">
+          <label for="sublederCode" class="col-sm-4 col-form-label">Code</label>
+          <div class="col-sm-6">
+              <input [readonly]="subledgerValidation[3]?.SublederCode" subledgerCheck [required]="subledgerValidation[0]?.SublederCode&&subledgerValidation[1]?.SublederCode" #sublederCodeControl="ngModel" id="sublederCode" name="SublederCode" 
+              [(ngModel)]="subledger.SublederCode" class="form-control"
+                placeholder="subleder code">
+                <span class="help-block" *ngIf="sublederCodeControl.invalid&&sublederCodeControl.touched">
+                    Subleder code feild is required
+                </span>       
+          </div>
+          <div class="col-md-2"> 
+            <app-autocode-generate
+            [itemName]="itemName"
+            [IsAutoCode]="IsAutoCode"                 
+            (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+            >
+            </app-autocode-generate>
+          </div>
+        </div>
+        <div *ngIf="subledgerValidation[0]?.Description" class="form-group row" [class.has-success]="DescriptionControl.valid" [class.has-error]="DescriptionControl.invalid&&DescriptionControl.touched">
+          <label for="Description" class="col-sm-4 col-form-label">Description</label>
+          <div class="col-sm-8">
+              <textarea #DescriptionControl="ngModel"  [required]="subledgerValidation[0]?.Description&&subledgerValidation[1]?.Description" id="Description" required name="Description" [(ngModel)]="subledger.Description" class="form-control"
+                placeholder="Description"></textarea>
+                <span class="help-block" *ngIf="DescriptionControl.invalid&&DescriptionControl.touched">
+                    Description feild is required
+                </span>       
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-md-offset-6">
+                    <input type="button" [disabled]="subledgerForm.invalid" class="btn btn-primary" (click)="addSubledger()" value="Save">
+              </div>
+              <div class="col-md-3">
+                  <input type="button" [disabled]="!subledgerForm.dirty" class="btn btn-primary" (click)="clear()" value="Clear">
+            </div>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>

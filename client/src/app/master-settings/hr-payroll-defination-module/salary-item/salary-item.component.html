@@ -1,0 +1,161 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> SalaryItem entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #salaryItemForm="ngForm">
+            <div class="form-group row" *ngIf="salaryItemValidation[0]?.ItemId" [class.has-success]="salaryItemIdControl.valid&&salaryItemIdControl.touched" [class.has-error]="salaryItemIdControl.invalid&&salaryItemIdControl.touched">
+                <label for="salaryItemId" class="col-sm-4 col-form-label control-label" [class.required]="salaryItemIdControl.invalid">SalaryItem id</label>
+                <div class="col-sm-5" >
+                    <input class="form-control" salaryItemCheck [required]="salaryItemValidation[0]?.ItemId&&salaryItemValidation[1]?.ItemId" name="salaryItemId" #salaryItemIdControl="ngModel" id="salaryItemId" [(ngModel)]="salaryItem.ItemId">
+                    <span class="help-block" *ngIf="salaryItemIdControl.errors?.required&&salaryItemIdControl.touched">
+                        Salary item id feild is required  
+                    </span>
+                    <span class="help-block" *ngIf="salaryItemIdControl.errors?.exists&&salaryItemIdControl.touched">
+                      Salary item id already taken
+                    </span>
+                </div>
+                <div class="col-md-3"> 
+                  <app-autocode-generate
+                  [itemName]="itemName"
+                  [IsAutoCode]="IsAutoCode" 
+                  (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+                  >
+                  </app-autocode-generate>
+                </div>
+              </div>
+            <div *ngIf="salaryItemValidation[0]?.ItemName" class="form-group row" [class.has-success]="salaryItemNameControl.valid&&salaryItemNameControl.touched" [class.has-error]="salaryItemNameControl.invalid&&salaryItemNameControl.touched">
+                <label for="SalaryItemName" class="col-sm-4 col-form-label control-label" [class.required]="salaryItemNameControl.invalid">Item Name</label>
+                <div class="col-sm-8" >
+                    <input class="form-control" [required]="salaryItemValidation[0]?.ItemName&&salaryItemValidation[1]?.ItemName" name="SalaryItemName" #salaryItemNameControl="ngModel" id="SalaryItemName" [(ngModel)]="salaryItem.ItemName">
+                    <span class="help-block" *ngIf="salaryItemNameControl.invalid&&salaryItemNameControl.touched">
+                        Salary item name feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="salaryItemValidation[0]?.ItemType" class="form-group row" [class.has-success]="itemType.valid&&itemType.touched" [class.has-error]="itemType.invalid&&itemType.touched">
+                <label for="Description" class="col-sm-4 col-form-label control-label" [class.required]="itemType.invalid">Item type</label>
+                <div class="col-sm-8" >
+                    <select class="form-control" selectListValidator="0" [required]="salaryItemValidation[0]?.ItemType&&salaryItemValidation[1]?.ItemType" name="ItemType" #itemType="ngModel" id="Description" [(ngModel)]="salaryItem.ItemType">
+                      <option value="0">SELECT</option>
+                      <option value="Earnings">Earnings</option>
+                      <option value="Deductive">Deductive</option>
+                    </select>
+                    <span class="help-block" *ngIf="itemType.errors?.defaultSelected&&itemType.touched">
+                     Item type feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="salaryItemValidation[0]?.IsDefault" class="form-group row" [class.has-success]="IsDefaultControl.valid&&IsDefaultControl.touched" [class.has-error]="IsDefaultControl.invalid&&IsDefaultControl.touched">
+                <label for="IsDefault" class="col-sm-4 col-form-label control-label" [class.required]="IsDefaultControl.invalid">Is Default</label>
+                <div class="col-sm-8" >
+                    <input type="checkbox" [required]="salaryItemValidation[0]?.IsDefault&&salaryItemValidation[1]?.IsDefault" name="IsDefault" #IsDefaultControl="ngModel" id="IsDefault" [(ngModel)]="salaryItem.IsDefault">
+                    <span class="help-block" *ngIf="IsDefaultControl.invalid&&IsDefaultControl.touched">
+                      Is default feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="salaryItemValidation[0]?.IsTax" class="form-group row" [class.has-success]="IsTaxControl.valid&&IsTaxControl.touched" [class.has-error]="IsTaxControl.invalid&&IsTaxControl.touched">
+                <label for="IsTax" class="col-sm-4 col-form-label control-label" [class.required]="IsTaxControl.invalid">Is Tax</label>
+                <div class="col-sm-8" >
+                    <input type="checkbox" [required]="salaryItemValidation[0]?.IsTax&&salaryItemValidation[1]?.IsTax" name="IsTax" #IsTaxControl="ngModel" id="IsTax" [(ngModel)]="salaryItem.IsTax">
+                    <span class="help-block" *ngIf="IsTaxControl.invalid&&IsTaxControl.touched">
+                      Is tax feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="salaryItemValidation[0]?.IsBasic" class="form-group row" [class.has-success]="IsBasicControl.valid&&IsBasicControl.touched" [class.has-error]="IsBasicControl.invalid&&IsBasicControl.touched">
+                <label for="IsBasic" class="col-sm-4 col-form-label control-label" [class.required]="IsBasicControl.invalid">Is Basic</label>
+                <div class="col-sm-8" >
+                    <input type="checkbox" [required]="salaryItemValidation[0]?.IsBasic&&salaryItemValidation[1]?.IsBasic" name="IsBasic" #IsBasicControl="ngModel" id="IsBasic" [(ngModel)]="salaryItem.IsBasic">
+                    <span class="help-block" *ngIf="IsBasicControl.invalid&&IsBasicControl.touched">
+                      Is basic feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="salaryItemValidation[0]?.IsDaily" class="form-group row" [class.has-success]="IsDailyControl.valid&&IsDailyControl.touched" [class.has-error]="IsDailyControl.invalid&&IsDailyControl.touched">
+                <label for="IsDaily" class="col-sm-4 col-form-label control-label" [class.required]="IsDailyControl.invalid">Is Daily</label>
+                <div class="col-sm-8" >
+                    <input type="checkbox" [required]="salaryItemValidation[0]?.IsDaily&&salaryItemValidation[1]?.IsDaily" name="IsDaily" #IsDailyControl="ngModel" id="IsDaily" [(ngModel)]="salaryItem.IsDaily">
+                    <span class="help-block" *ngIf="IsDailyControl.invalid&&IsDailyControl.touched">
+                      Is daily feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="salaryItemValidation[0]?.IsPension" class="form-group row" [class.has-success]="IsPensionControl.valid&&IsPensionControl.touched" [class.has-error]="IsPensionControl.invalid&&IsPensionControl.touched">
+                <label for="IsPension" class="col-sm-4 col-form-label control-label" [class.required]="IsPensionControl.invalid">Is Pension</label>
+                <div class="col-sm-8" >
+                    <input type="checkbox" [required]="salaryItemValidation[0]?.IsPension&&salaryItemValidation[1]?.IsPension" name="IsPension" #IsPensionControl="ngModel" id="IsPension" [(ngModel)]="salaryItem.IsPension">
+                    <span class="help-block" *ngIf="IsPensionControl.invalid&&IsPensionControl.touched">
+                      Is pension feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="salaryItemValidation[0]?.IsLeave" class="form-group row" [class.has-success]="IsLeaveControl.valid&&IsLeaveControl.touched" [class.has-error]="IsLeaveControl.invalid&&IsLeaveControl.touched">
+                <label for="IsLeave" class="col-sm-4 col-form-label control-label" [class.required]="IsLeaveControl.invalid">Is Leave</label>
+                <div class="col-sm-8" >
+                    <input type="checkbox" [required]="salaryItemValidation[0]?.IsLeave&&salaryItemValidation[1]?.IsLeave" name="IsLeave" #IsLeaveControl="ngModel" id="IsLeave" [(ngModel)]="salaryItem.IsLeave">
+                    <span class="help-block" *ngIf="IsLeaveControl.invalid&&IsLeaveControl.touched">
+                      Is leave feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="salaryItemValidation[0]?.IsLoan" class="form-group row" [class.has-success]="IsLoanControl.valid&&IsLoanControl.touched" [class.has-error]="IsLoanControl.invalid&&IsLoanControl.touched">
+                <label for="IsLoan" class="col-sm-4 col-form-label control-label" [class.required]="IsLoanControl.invalid">Is Loan</label>
+                <div class="col-sm-8" >
+                    <input type="checkbox" [required]="salaryItemValidation[0]?.IsLoan&&salaryItemValidation[1]?.IsLoan" name="IsLoan" #IsLoanControl="ngModel" id="IsLoan" [(ngModel)]="salaryItem.IsLoan">
+                    <span class="help-block" *ngIf="IsLoanControl.invalid&&IsLoanControl.touched">
+                      Is loan feild is required
+                    </span>  
+                </div>
+              </div>
+              <div *ngIf="salaryItemValidation[0]?.Percentage" class="form-group row" [class.has-success]="PercentageControl.valid&&PercentageControl.touched" [class.has-error]="PercentageControl.invalid&&PercentageControl.touched">
+                <label for="Percentage" class="col-sm-4 col-form-label control-label" [class.required]="PercentageControl.invalid">Percentage ( % )</label>
+                <div class="col-sm-8" >
+                    <input type="number" class="form-control" [required]="salaryItemValidation[0]?.Percentage&&salaryItemValidation[1]?.Percentage" name="Percentage" #PercentageControl="ngModel" id="Percentage" [(ngModel)]="salaryItem.Percentage">
+                    <span class="help-block" *ngIf="PercentageControl.invalid&&PercentageControl.touched">
+                      Percentage feild is required
+                    </span>  
+                </div>
+              </div>
+              <div class="form-group row" *ngIf="salaryItemValidation[0]?.InheritedItem" [class.has-success]="SalaryItemIdControl.valid" [class.has-error]="SalaryItemIdControl.invalid&&salaryItemTouch">
+                <label for="salaryItemId" class="col-sm-4 col-form-label control-label" [class.required]="SalaryItemIdControl.invalid">Item Name</label>
+                <input style="display: none;" [required]="salaryItemValidation[0]?.InheritedItem&&salaryItemValidation[1]?.InheritedItem" 
+                type="text" name="SalaryItemId" #SalaryItemIdControl="ngModel" [(ngModel)]="salaryItem.InheritedItem">
+                <div class="col-sm-8" >
+                   <app-salary-item-dropdown 
+                   (salaryItemOnItemSelect)="OnSeletedItem($event)" 
+                   (salaryItemOnItemDeSelect)="OnDeSeletedItem($event)" 
+                   [IsNewSalaryItemAdd]="salaryItemNew"
+                   [salaryItemSelectedItems]="salaryItemSelectedItems">
+                  </app-salary-item-dropdown>
+                  <span class="help-block" *ngIf="SalaryItemIdControl.invalid&&salaryItemTouch">
+                    SalaryItem id feild is required
+                 </span>  
+                </div>
+              </div>
+              <div  class="form-group row" [class.has-success]="OperatorStringControl.valid&&OperatorStringControl.touched" >
+                <label for="OperatorString" class="col-sm-4 col-form-label control-label" >Formulated string</label>
+                <div class="col-sm-8" >
+                    <input type="text" readonly class="form-control" name="OperatorString" #OperatorStringControl="ngModel" id="OperatorString" [(ngModel)]="salaryItem.OperatorString"> 
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="salaryItemForm.invalid" (click)="saveSalaryItem()" value="{{salaryItem.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!salaryItemForm.dirty" (click)="clearSalaryItem()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  

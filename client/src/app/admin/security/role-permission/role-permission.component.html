@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Role List <span (click)="createNewRolePermission()" id="pointer" class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span></h3>
+                </div>
+                <div class="panel-body" *ngIf="reload&&columnReady&&dataReady">
+                    <app-custom-datatable
+                     [DataList]="DataList" 
+                     [ColumnList]="ColumnList"
+                     [reload]="reload"
+                    (EditSelectedRowClicked)="getRolePermissionDetailsById($event)"
+                    (DeleteDataRowClicked)="deleteRole($event)"
+                    >
+                    </app-custom-datatable>
+                        <!-- <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger">
+                                <thead>
+                                    <tr> 
+                                        <th *ngFor="let roleControl of roleControlList">{{roleControl.Status?roleControl.Label:""}}</th>
+                                    </tr>
+                                </thead>
+                               <tbody>
+                                    <tr *ngFor="let a of roleList;let i=index;" id="pointer">
+                                        <td *ngFor="let b of roleControlList; let j=index;">
+                                            <span id="pointer" (click)="getRolePermissionDetailsById(a.Id)" *ngIf="b.Status&&b.Name!='Delete'"> {{roleList[i][b.Name]}}</span>
+                                            <span id="pointer" *ngIf="b.Status&&b.Name=='Delete'" class="glyphicon glyphicon-trash" (click)="deleteRole(a.Id,a.RoleName)"></span> 
+                                       </td> 
+                                    </tr>                 
+                               </tbody>
+                        </table> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

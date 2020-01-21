@@ -1,0 +1,103 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Customer entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>     
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #customerForm="ngForm">
+              <div class="form-group row" *ngIf="customerValidation[0]?.CustomerId" [class.has-success]="CustomerIdControl.valid&&CustomerIdControl.touched" [class.has-error]="CustomerIdControl.invalid&&CustomerIdControl.touched">
+                  <label for="CustomerId" class="col-sm-4 col-form-label control-label" [class.required]="CustomerIdControl.invalid">Customer Id</label>
+                  <div class="col-sm-5" >
+                      <input class="form-control" customerCheck [required]="customerValidation[0]?.CustomerId&&customerValidation[1]?.CustomerId" name="CustomerId" #CustomerIdControl="ngModel" id="CustomerId" [(ngModel)]="customer.CustomerId">
+                      <span class="help-block" *ngIf="CustomerIdControl.errors?.required&&CustomerIdControl.touched">
+                        Customer Id feild is required
+                      </span>
+                      <span class="help-block" *ngIf="CustomerIdControl.errors?.exists&&CustomerIdControl.touched">
+                        Customer Id already taken
+                      </span>    
+                  </div>
+                  <div class="col-md-2"> 
+                    <app-autocode-generate
+                    [itemName]="itemName"
+                    [IsAutoCode]="IsAutoCode"
+                    (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+                    >
+                    </app-autocode-generate>
+                  </div>
+              </div>
+              <div class="form-group row" *ngIf="customerValidation[0]?.CustomerName" [class.has-success]="CustomerNameControl.valid&&CustomerNameControl.touched" [class.has-error]="CustomerNameControl.invalid&&CustomerNameControl.touched">
+                  <label for="CustomerName" class="col-sm-4 col-form-label control-label" [class.required]="CustomerNameControl.invalid">Customer Name</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="customerValidation[0]?.CustomerName&&customerValidation[1]?.CustomerName" name="CustomerName" #CustomerNameControl="ngModel" id="CustomerName" [(ngModel)]="customer.CustomerName">
+                      <span class="help-block" *ngIf="CustomerNameControl.invalid&&CustomerNameControl.touched">
+                        Customer name feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="customerValidation[0]?.Email" [class.has-success]="EmailControl.valid&&EmailControl.touched" [class.has-error]="EmailControl.invalid&&EmailControl.touched">
+                  <label for="Email" class="col-sm-4 col-form-label control-label" [class.required]="EmailControl.invalid">Email</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="customerValidation[0]?.Email&&customerValidation[1]?.Email" name="Email" #EmailControl="ngModel" id="Email" [(ngModel)]="customer.Email">
+                      <span class="help-block" *ngIf="EmailControl.invalid&&EmailControl.touched">
+                        Email feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="customerValidation[0]?.PhoneNo" [class.has-success]="PhoneNoControl.valid&&PhoneNoControl.touched" [class.has-error]="PhoneNoControl.invalid&&PhoneNoControl.touched">
+                  <label for="PhoneNo" class="col-sm-4 col-form-label control-label" [class.required]="PhoneNoControl.invalid">Phone no</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="customerValidation[0]?.PhoneNo&&customerValidation[1]?.PhoneNo" name="PhoneNo" #PhoneNoControl="ngModel" id="PhoneNo" [(ngModel)]="customer.PhoneNo">
+                      <span class="help-block" *ngIf="PhoneNoControl.invalid&&PhoneNoControl.touched">
+                        Phone no feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="customerValidation[0]?.Address" [class.has-success]="AddressControl.valid&&AddressControl.touched" [class.has-error]="AddressControl.invalid&&AddressControl.touched">
+                  <label for="Address" class="col-sm-4 col-form-label control-label" [class.required]="AddressControl.invalid">Address</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="customerValidation[0]?.Address&&customerValidation[1]?.Address" name="Address" #AddressControl="ngModel" id="Address" [(ngModel)]="customer.Address">
+                      <span class="help-block" *ngIf="AddressControl.invalid&&AddressControl.touched">
+                        Address feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="customerValidation[0]?.Ledger_Id" [class.has-success]="ledgerIdControl.valid" [class.has-error]="ledgerIdControl.invalid&&ledgerTouch">
+                  <label for="ledgerId" class="col-sm-4 col-form-label control-label" [class.required]="ledgerIdControl.invalid">Ledger Name</label>
+                  <div class="col-sm-7" >
+                    <input style="display: none;" class="form-control" [required]="customerValidation[0]?.Ledger_Id&&customerValidation[1]?.Ledger_Id" name="ledgerIdControl" #ledgerIdControl="ngModel" [(ngModel)]="customer.Ledger_Id">
+                    <app-ledger-dropdown 
+                     (ledgerOnItemSelect)="ledgerOnSeletedItem($event)" 
+                     [allLedger]="allLedger"
+                     [ledgerSelectedItems]="ledgerSelectedItems">
+                    </app-ledger-dropdown> 
+                     <span class="help-block" *ngIf="ledgerIdControl.invalid&&ledgerTouch">
+                        Ledger name is required
+                    </span> 
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="subledgerId" class="col-sm-4 col-form-label control-label">Subledger Name</label>
+                  <div class="col-sm-7" >
+                     <app-subledger-dropdown 
+                     [ledgerId]="customer.Ledger_Id" 
+                     (subledgerOnItemSelect)="subledgerOnSeletedItem($event)" 
+                     [subledgerSelectedItems]="subledgerSelectedItems">
+                    </app-subledger-dropdown> 
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="customerForm.invalid" (click)="saveCustomer()" value="{{customer.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!customerForm.dirty" (click)="clearCustomer()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

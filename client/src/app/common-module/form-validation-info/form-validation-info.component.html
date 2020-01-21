@@ -1,0 +1,29 @@
+<table class="table">
+  <thead>
+    <th>Name</th>
+    <th>Enable Disabled</th>
+    <th>Required</th>
+    <th>Is auto code</th>
+    <th>Is readonly</th>
+    <th>Minlength</th>
+    <th>Maxlength</th>
+    <th>Email</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let a of formInfoList">
+      <td>{{a.Name}}</td>
+      <td><input type="checkbox" [(ngModel)]="a.IsEnable"></td>
+      <td><input type="checkbox" [(ngModel)]="a.IsValidationActive"></td>
+      <td><input type="checkbox" [(ngModel)]="a.IsAutoCode"></td>
+      <td><input type="checkbox" [(ngModel)]="a.IsReadOnly"></td>
+      <td><input type="checkbox" [(ngModel)]="a.IsMinLength"></td>
+      <td><input type="checkbox" [(ngModel)]="a.IsMaxLength"></td>
+      <td><input type="checkbox" [(ngModel)]="a.IsEmail"></td>
+    </tr>
+  </tbody>
+</table>
+<div class="row">
+    <div class="col-md-2 pull-right">
+      <input type="button" value="Save" (click)="saveFormInfo()" class="btn btn-success">
+    </div>
+  </div>

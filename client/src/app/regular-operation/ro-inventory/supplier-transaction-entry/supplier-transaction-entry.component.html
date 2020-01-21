@@ -1,0 +1,110 @@
+<div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h5> Supplier transaction entry
+            <!-- <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button> -->
+          </h5>
+        </div>
+        <div class="panel-body">
+          <form #supplierTransactionForm="ngForm">
+            <div class="row">
+              <div class="col-md-6">
+                <label class="radio-inline">
+                  <input type="radio" (change)="paymentTypeChange(paymentType)" name="paymentType"
+                    [(ngModel)]="paymentType" #voucherTypeControl="ngModel" value="payment">Payment<br>
+                </label>
+              </div>
+              <div class="col-md-6">
+                <label class="radio-inline">
+                  <input type="radio" (change)="paymentTypeChange(paymentType)" name="paymentType"
+                    [(ngModel)]="paymentType" #voucherTypeControl="ngModel" value="refund">Refund<br>
+                </label>
+              </div>
+            </div>
+            <div class="form-group row" [class.has-suucess]="SupplierIdControl.valid"
+              [ngClass]="{'has-error':SupplierIdControl.invalid}">
+              <label class="col-sm-4 control-label" for="Supplier_Id">Supplier name </label>
+              <div class="col-sm-7">
+                <input style="display: none;" name="SupplierId" required #SupplierIdControl="ngModel"
+                  [(ngModel)]="supplierTransaction.Supplier_Id" class="form-control">
+                <app-supplier-dropdown [IsNewSupplierAdd]="supplierNew"
+                  (supplierOnItemSelect)="supplierOnSeletedItem($event)" [supplierSelectedItems]="supplierSelectedItems">
+                </app-supplier-dropdown>
+                <span class="help-block" *ngIf="SupplierIdControl.invalid">Required</span>
+              </div>
+              <div class="col-md-1">
+                <span id="pointer" (click)="createNewSupplier()" class="glyphicon glyphicon-plus"></span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="PaymentDate" class="col-sm-4 col-form-label">From Date</label>
+              <div class="col-sm-7" id="startDateMargin">
+                <div class="row">
+                  <div class="col-md-10">
+                    <input class="form-control" name="PaymentDate" #PaymentDateControl="ngModel" id="formDate"
+                      [(ngModel)]="supplierTransaction.PaymentDate" matInput [matDatepicker]="PaymentDatePicker">
+                  </div>
+                  <div class="col-md-2">
+                    <mat-datepicker-toggle matSuffix [for]="PaymentDatePicker"></mat-datepicker-toggle>
+                    <mat-datepicker #PaymentDatePicker [startAt]=""> </mat-datepicker>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row" [class.has-suucess]="PaidAmountControl.valid"
+              [ngClass]="{'has-error':PaidAmountControl.invalid&&PaidAmountControl.touched}">
+              <label class="col-sm-4 control-label" for="PaidAmount">Pay Amount</label>
+              <div class="col-sm-7">
+                <input id="PaidAmount" required name="PaidAmount" #PaidAmountControl="ngModel"
+                  [(ngModel)]="supplierTransaction.PaidAmount" class="form-control">
+                <span class="help-block" *ngIf="PaidAmountControl.invalid&&PaidAmountControl.touched">Required</span>
+              </div>
+            </div>
+            <div class="form-group row" [class.has-suucess]="PaymentModeControl.valid"
+              [ngClass]="{'has-error':PaymentModeControl.invalid&&PaymentModeControl.touched}">
+              <label class="col-sm-4 control-label" for="PaymentMode">Payment Mode</label>
+              <div class="col-sm-7">
+                <select id="PaymentMode" required name="PaymentMode" #PaymentModeControl="ngModel"
+                  [(ngModel)]="supplierTransaction.PaymentMode" class="form-control">
+                  <option value="0">SELECT</option>
+                  <option value="1">Cash</option>
+                  <option value="2">Bank</option>
+                  <option value="3">Other</option>
+                </select>
+                <span class="help-block" *ngIf="PaymentModeControl.invalid&&PaymentModeControl.touched">Required</span>
+              </div>
+            </div>
+            <div class="form-group row" [class.has-success]="ledgerIdControl.valid"
+              [class.has-error]="ledgerIdControl.invalid&&ledgerTouch">
+              <label for="ledgerId" class="col-sm-4 col-form-label">Ledger Name</label>
+              <div class="col-sm-7">
+                <input style="display: none;" class="form-control" required name="ledgerIdControl"
+                  #ledgerIdControl="ngModel" [(ngModel)]="supplierTransaction.Ledger_Id">
+                <app-ledger-dropdown (ledgerOnItemSelect)="ledgerOnSeletedItem($event)"
+                  [ledgerSelectedItems]="ledgerSelectedItems"></app-ledger-dropdown>
+                <span class="help-block" *ngIf="ledgerIdControl.errors?.required&&ledgerTouch">
+                  Ledger name is required
+                </span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="unitId" class="col-sm-4 col-form-label">Subledger Name</label>
+              <div class="col-sm-7">
+                <app-subledger-dropdown [ledgerId]="supplierTransaction.Ledger_Id"
+                  (subledgerOnItemSelect)="subledgerOnSeletedItem($event)"
+                  [subledgerSelectedItems]="subledgerSelectedItems"></app-subledger-dropdown>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 pull-right">
+                <input type="button" [disabled]="supplierTransactionForm.invalid" (click)="saveSupplierTransaction()" value="Save"
+                  class="btn btn-primary">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,45 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h5> Location entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #manufactureForm="ngForm">
+            <div class="form-group row" *ngIf="manufactureFormInfoList[0]?.ManufactureId">
+                <label for="manufactureId" class="col-sm-3 col-form-label">Manufacture Id</label>
+                <div class="col-sm-9" >
+                    <input class="form-control" readonly name="manufactureId" #manufactureIdControl="ngModel" id="manufactureId" [(ngModel)]="manufacture.ManufactureId">
+                </div>
+              </div>
+              <div *ngIf="manufactureFormInfoList[0]?.ManufactureName" class="form-group row" [class.has-success]="manufactureNameControl.valid" [class.has-error]="manufactureNameControl.invalid&&manufactureNameControl.touched">
+                  <label for="manufactureName" class="col-sm-3 col-form-label">Manufacture name</label>
+                  <div class="col-sm-9" >
+                      <input class="form-control" [required]="manufactureFormInfoList[1]?.ManufactureName" 
+                      name="manufactureName" #manufactureNameControl="ngModel" id="manufactureName" [(ngModel)]="manufacture.ManufactureName">
+                      <span class="help-block" *ngIf="manufactureNameControl.errors?.required&&manufactureNameControl.touched">
+                        Manufacture name feild is required
+                    </span>  
+                  </div>
+                </div>
+                <div class="form-group row" *ngIf="manufactureFormInfoList[0]?.Address" [class.has-success]="addressControl.valid" [class.has-error]="addressControl.invalid&&addressControl.touched">
+                  <label for="address" class="col-sm-3 col-form-label">Address</label>
+                  <div class="col-sm-9" >
+                      <input class="form-control" [required]="manufactureFormInfoList[0]?.Address&&manufactureFormInfoList[1]?.Address" name="Address" #addressControl="ngModel" id="address" [(ngModel)]="manufacture.Address">
+                      <span class="help-block" *ngIf="addressControl.errors?.required&&addressControl.touched">
+                        Address feild is required
+                    </span> 
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="manufactureForm.invalid" (click)="saveManufacture()" value="Save" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

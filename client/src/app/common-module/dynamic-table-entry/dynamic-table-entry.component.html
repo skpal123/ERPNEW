@@ -1,0 +1,39 @@
+  <div class="row">
+      <div class="clo-md-4" *ngIf="enableSaveButton">
+          <input type="button" value="Save new order" class="btn btn-success" (click)="saveNewOrder()">
+        </div>
+  </div>
+  <table class="table table-bordered" cdkDropList cdkDropListOrientation="horizontal" (cdkDropListDropped)="drop($event)" >
+    <tr>
+      <td style="text-align: center;width: 70px" cdkDrag *ngFor="let col of ColumnList;let i=index;" class="example-box">
+        <span *ngIf="col.IsEnable&&col.Type!='none'">{{col.LabelName}}</span>
+        <span style="cursor: pointer;margin-left: 5px; " *ngIf="col.IsEnable&&col.Type=='Autocomplete'" (click)="autoCompleteNewEntry(col)"><img height="30px" width="30px" src="./assets/Img/addicon.png"></span>
+      </td>
+    </tr>
+    <tbody>
+      <tr *ngFor="let data of Datalist;let i=index;" >
+        <td *ngFor="let col2 of ColumnList" style="text-align: center">
+          <div *ngIf="col2.IsEnable&&!col2.Editable&&col2.Type!='none'&&col2.Type.toLowerCase()!='date'">
+              {{Datalist[i][col2.Name]}}
+          </div>
+          <div *ngIf="col2.IsEnable&&!col2.Editable&&col2.Type!='none'&&col2.Type.toLowerCase()=='date'">
+            {{Datalist[i][col2.Name]|date}}
+          </div>
+          <div *ngIf="col2.IsEnable&&col2.Editable">
+              <input *ngIf="col2.Type=='text'" [readonly]="col2.IsReadOnly" [(ngModel)]="Datalist[i][col2.Name]" (blur)="datatableTextColumnClicked(Datalist[i],col2.Name,i)" type="text" class="form-control" >
+              <input *ngIf="col2.Type=='number'" [readonly]="col2.IsReadOnly" (blur)="datatableTextColumnClicked(Datalist[i],col2.Name,i)" class="form-control" [(ngModel)]="Datalist[i][col2.Name]" type="number">
+              <ng2-completer *ngIf="col2.Type=='Autocomplete'" (click)="AutoCompleteClick(Datalist[i][col2.Name])" [(ngModel)]="Datalist[i][col2.Name]" [datasource]="AutoCompleteDataSource" [minSearchLength]="0">               
+              </ng2-completer>
+              <select class="form-control" *ngIf="col2.Type=='select'" (change)="onchange($event)" [(ngModel)]="Datalist[i][col2.Name]">
+                <option [value]="select.Id" *ngFor="let select of selectList">{{select.Name}}</option>
+              </select>
+          </div>
+          <span style="cursor: pointer; " *ngIf="col2.IsEnable&&col2.Name=='Delete'&&i==0" (click)="addNewRow()"><img height="30px" width="30px" src="./assets/Img/addicon.png"></span>
+          <span style="float: left; overflow: hidden;" *ngIf="col2.IsEnable&&col2.Name=='Delete'&&Datalist?.length>1" (click)="deleteRow(i,data)" style="cursor: pointer;"><img height="30px" width="30px" src="./assets/Img/delete.png"></span>
+          <!-- <span id="pointer" *ngIf="col2.IsEnable&&col2.Name=='Delete'" class="glyphicon glyphicon-trash" (click)="deleteRow(i,data)"></span> -->
+          </td>
+      </tr>
+    </tbody>
+  </table>
+
+

@@ -1,0 +1,25 @@
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h5> subledger
+                <app-custom-datatable-control-settings [userControlList]="userControlList"></app-custom-datatable-control-settings>
+                <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            </h5>
+          </div>
+          <div class="panel-body">
+            <app-dynamic-table-entry
+            [ColumnList]="columnlist" 
+            [Datalist]="Datalist" 
+            [AutoCompleteDataSource]="autoCompleteData"
+            (AutoCompleteNewEntry)="autoCompleteNewEntry($event)"
+            (AddNewRow)="addNewSubledgerEntry()"
+            (AutoCompleteDataSourceClicked)="ParentAutoCompleteDataSource($event)"
+            (DeleteDataRowClicked)="deleteSubledgerDetailsRow($event)"
+            >
+            </app-dynamic-table-entry>
+          </div>
+        </div>
+        <input type="button" value="Post" class="btn btn-primary pull-right" (click)="postSubledger()">
+      </div>
+    </div>

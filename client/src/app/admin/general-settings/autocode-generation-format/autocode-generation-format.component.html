@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 style="text-align: center">Formated code list
+          <span class="pull-right" (click)="createNewCodeFormater()" id="pointer">
+              <img height="30px" width="30px" src="./assets/Img/addicon.png">
+          </span>
+      </h4>
+    </div>
+    <div class="panel-body">
+      <table class="table">
+        <thead>
+          <tr>
+            <td>Name</td>
+            <td>ItemName</td>
+            <td>ItemLength</td>
+            <td>IsSerial</td>
+            <td>IsTodaysDate</td>
+            <td>IsSymbol</td>
+            <td>SymbolName</td>
+            <td>Prefix</td>
+            <td>StartPossition</td>
+            <td>LastNumber</td>
+            <td>StringLength</td>
+            <td>Edit</td>
+            <td>Delete</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let a of codeformaterList">
+            <td>{{a.Name}}</td>
+            <td>{{a.ItemName}}</td>
+            <td>{{a.ItemLength}}</td>
+            <td>{{a.IsSerial}}</td>
+            <td>{{a.IsTodaysDate}}</td>
+            <td>{{a.IsSymbol}}</td>
+            <td>{{a.SymbolName}}</td>
+            <td>{{a.Prefix}}</td>
+            <td>{{a.StartPossition}}</td>
+            <td>{{a.LastNumber}}</td>
+            <td>{{a.StringLength}}</td>
+            <td>
+                <span id="pointer" title="Edit" (click)="getCodeFormaterById(a.Id)"><img src="./assets/Img/edit.png" height="30px" width="30px"></span>
+            </td>
+            <td>
+                <span id="pointer" title="Edit" (click)="deleteCodeFormater(a.Id)"><img src="./assets/Img/delete.png" height="30px" width="30px"></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+
+<div class="content">
+    <div class="showItem" style="background-color: #959595;overflow-y:scroll">
+        <div *ngFor="let item of selectedItem" style="cursor: pointer;"  (click)="showItemListContent()">
+          <span  class="selecetd-item" >{{item.itemName}}<span
+              class="glyphicon glyphicon-chevron-down pull-right"></span></span>
+        </div>
+      </div>
+      <form #multiselectForm="ngForm"  class="mainDiv">
+        <div class="row" *ngIf="showItem1">
+          <div class="col-md-12">
+            <div>
+              <input type="text" name="searchText" [(ngModel)]="searchText"
+                #searchTermControl="ngModel" class="form-control">
+              <div class="itemList-content">
+                <div class="list-group list-group-flush">
+                  <a *ngFor="let a of filteredData" class="list-group-item list-group-item-action bg-light"
+                    (click)="itemAdd(a)">
+                    <span>{{a.itemName}}</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+</div>
+

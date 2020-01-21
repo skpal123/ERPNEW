@@ -1,0 +1,219 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Offer setup entry
+          <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+          <app-form-control-info-settings [formName]="formName"></app-form-control-info-settings>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #offerForm="ngForm">
+          <div class="form-group row" [class.has-success]="offerTypeControl.valid">
+            <label class="col-sm-4  control-label" for="offerType">Offer type</label>
+            <div class="col-sm-7">
+              <label class="radio-inline">
+                <input type="radio" name="offerType" [(ngModel)]="offer.OfferType" #offerTypeControl="ngModel"
+                  value="single">Single<br>
+              </label>
+              <label class="radio-inline" >
+                <input type="radio" name="offerType" [(ngModel)]="offer.OfferType" #offerTypeControl="ngModel"
+                  value="manyToOne">Multiple(many to one)<br>
+              </label>
+              <label class="radio-inline" >
+                <input type="radio" name="offerType" [(ngModel)]="offer.OfferType" #offerTypeControl="ngModel"
+                  value="oneToMany">Multiple(one to many)<br>  
+              </label>
+              <label class="radio-inline" >
+                <input type="radio" name="offerType" [(ngModel)]="offer.OfferType" #offerTypeControl="ngModel"
+                  value="manyTomany">Multiple(Many to many)<br>
+              </label>
+            </div>
+          </div>
+          <div class="form-group row" [class.has-success]="offerIdControl.valid&&offerIdControl.touched"
+            [class.has-error]="offerIdControl.invalid&&offerIdControl.touched">
+            <label for="offerId" class="col-sm-4 col-form-label control-label "
+              [class.required]="offerIdControl.invalid">Offer Id</label>
+            <div class="col-sm-6">
+              <input class="form-control" name="offerId" #offerIdControl="ngModel" id="offerId"
+                [(ngModel)]="offer.OfferId">
+              <span class="help-block" *ngIf="offerIdControl.errors?.required&&offerIdControl.touched">
+                Offer Id feild is required
+              </span>
+            </div>
+            <div class="col-md-2">
+              <app-autocode-generate
+              [itemName]="itemName" 
+              [IsAutoCode]="IsAutoCode"
+              (getGenerateAutoCode)="parentGetGeneratedCode($event)">
+              </app-autocode-generate>
+            </div>
+          </div>
+          <div class="form-group row" [class.has-success]="OfferNameControl.valid&&OfferNameControl.touched"
+            [class.has-error]="OfferNameControl.invalid&&OfferNameControl.touched">
+            <label for="OfferName" class="col-sm-4 col-form-label control-label"
+              [class.required]="OfferNameControl.invalid">Offer Name</label>
+            <div class="col-sm-7">
+              <input class="form-control" name="OfferName" #OfferNameControl="ngModel" id="OfferName"
+                [(ngModel)]="offer.OfferName">
+              <span class="help-block" *ngIf="OfferNameControl.errors?.required&&OfferNameControl.touched">
+                Item name feild is required
+              </span>
+            </div>
+          </div>
+          <div class="form-group row" [class.has-suucess]="EffectiveDateControl.valid"
+          [ngClass]="{'has-error':EffectiveDateControl.invalid&&EffectiveDateControl.touched}">
+
+          <label class="col-sm-4 control-label" for="EffectiveDate">Effective Date<span
+              style="color: red;margin-left: 10px; size: 15px">*</span></label>
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-md-10">
+                <input class="form-control" name="EffectiveDate" #EffectiveDateControl="ngModel" [(ngModel)]="offer.EffectiveDate" id="EffectiveDate" matInput
+                  [matDatepicker]="formDatePicker">
+              </div>
+              <div class="col-md-1">
+                <mat-datepicker-toggle matSuffix [for]="formDatePicker"></mat-datepicker-toggle>
+                <mat-datepicker #formDatePicker [startAt]="startDate"> </mat-datepicker>
+              </div>
+            </div>
+            <span class="help-block"
+              *ngIf="EffectiveDateControl.invalid&&EffectiveDateControl.touched">Required</span>
+          </div>
+          </div>
+          <div class="form-group row" [class.has-suucess]="ExpiredDateControl.valid"
+          [ngClass]="{'has-error':ExpiredDateControl.invalid&&ExpiredDateControl.touched}">
+
+          <label for="ExpiredDate" class="col-sm-4 control-label" >Expired Date<span
+              style="color: red;margin-left: 10px; size: 15px">*</span></label>
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-md-10">
+                <input class="form-control" name="ExpiredDate" #ExpiredDateControl="ngModel" [(ngModel)]="offer.ExpiredDate" id="ExpiredDate" matInput
+                  [matDatepicker]="toDatePicker">
+              </div>
+              <div class="col-md-1">
+                <mat-datepicker-toggle matSuffix [for]="toDatePicker"></mat-datepicker-toggle>
+                <mat-datepicker #toDatePicker [startAt]="startDate"> </mat-datepicker>
+              </div>
+            </div>
+            <span class="help-block"
+              *ngIf="ExpiredDateControl.invalid&&ExpiredDateControl.touched">Required</span>
+          </div>
+          </div>
+          <div class="form-group row" *ngIf="!offer.IsSingle">
+            <label for="ProductId" class="col-md-4"
+              [class.required]="ProductIdControl.invalid">Product Name</label>
+            <div class="col-sm-7">
+              <input style="display: none;" name="ProductId" #ProductIdControl="ngModel"
+                [(ngModel)]="offer.Product_Id">
+                <app-custom-multi-select [selectedItem]="itemSelectedItems" [data]="itemDropdownList"
+                [showItem]="showItem" (getSelectedItemChild)="getSelectedProductParent($event)"
+                (showItemValue)="showItemValueParent($event)">
+               </app-custom-multi-select>
+              <span class="help-block" *ngIf="ProductIdControl.errors?.required">
+                Category name is required
+              </span>
+            </div>
+            <div class="col-md-1">
+              <span id="pointer" (click)="createNewItem()">
+                <img height="30px" width="30px" src="./assets/Img/addicon.png">
+              </span>
+            </div>
+          </div>
+          <div *ngIf="!offer.IsSingle">
+            <div class="form-group row">
+              <label for="FreeProductId" class="col-sm-4 col-form-label control-label"
+                [class.required]="FreeProductIdControl.invalid">Free Product Name</label>
+              <div class="col-sm-7">
+                <input style="display: none;" class="form-control" name="FreeProductId" #FreeProductIdControl="ngModel"
+                  [(ngModel)]="offer.FreeProduct_Id">
+                <!-- <app-item-dropdown 
+                           (itemOnItemSelect)="ItemOnSeletedItem($event)" 
+                           (itemOnItemDeSelect)="OnDeSeletedItem($event)"
+                            [itemSelectedItems]="freeItemSelectedItems"
+                            [IsNewItemAdd]="itemNew"
+                            [subCategoryId]="subCategoryId"
+                            [singleSelection]="singleSelection1"
+                            >
+                           </app-item-dropdown>  -->
+                <app-custom-multi-select [selectedItem]="freeItemSelectedItems" [data]="itemDropdownList"
+                  [showItem]="showItem" (getSelectedItemChild)="getSelectedItemParent($event)"
+                  (showItemValue)="showItemValueParent($event)">
+                </app-custom-multi-select>
+                <span class="help-block" *ngIf="FreeProductIdControl.errors?.required">
+                  Category name is required
+                </span>
+              </div>
+              <div class="col-md-1">
+                <span id="pointer" (click)="createNewItem()">
+                  <img height="30px" width="30px" src="./assets/Img/addicon.png">
+                </span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="BundleSize" class="col-sm-4 col-form-label control-label">Bundle Size</label>
+              <div class="col-sm-7">
+                <input class="form-control" readonly name="BundleSize" id="BundleSize"
+                  [(ngModel)]="offer.ProductMaster.BundleSize">
+              </div>
+            </div>
+          </div>
+          <div *ngIf="offer.IsSingle" class="form-group row" [class.has-success]="DiscountRateControl.valid&&DiscountRateControl.touched"
+            [class.has-error]="DiscountRateControl.invalid&&DiscountRateControl.touched">
+            <label for="discountRate" class="col-sm-4 col-form-label control-label"
+              [class.required]="DiscountRateControl.invalid">Discount rate( % )</label>
+            <div class="col-sm-7">
+              <input class="form-control" name="discountRate" #DiscountRateControl="ngModel" id="discountRate"
+                [(ngModel)]="offer.DiscountRate">
+              <span class="help-block" *ngIf="DiscountRateControl.errors?.required&&DiscountRateControl.touched">
+                Discount rate is required
+              </span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2 pull-right">
+              <input type="button" [disabled]="offerForm.invalid" (click)="saveItem()"
+                value="{{offer.Id==null?'Save':'Update'}}" class="btn btn-primary">
+            </div>
+            <div class="col-md-2 pull-right">
+              <input type="button" [disabled]="!offerForm.dirty" (click)="clearItem()" value="Clear"
+                class="btn btn-primary">
+            </div>
+          </div>
+        </form>
+        <h3>Product List</h3>
+        <div class="row">
+          <div class="col-md-12">
+            <ul *ngFor="let t of itemTree">
+              <li *ngIf="t.Children">
+                <input type="checkbox" (change)="findSelectedAccount(t,$event.target.checked)" [value]="t.Id" [checked]="t.Checked" >
+                <span id="displayHeadDiv" (click)="selectedNode(t)">{{t.Name}}</span>
+                <ul *ngFor="let tt of t.Children">
+                  <li *ngIf="tt.Status">
+                    <input type="checkbox" (change)="findSelectedAccount(tt,$event.target.checked)" [value]="tt.Id" [checked]="tt.Checked" >
+                    <span id="displayHeadDiv"
+                      (click)="selectedNode(tt)">{{tt.Name}}</span>
+                    <a style="float: right;" class="pull-rgiht" (click)="addNewAccount('add',tt)">Add</a>
+                    <a style="margin-right: 10px;float: right;" (click)="addNewAccount('edit',tt)" class="pull-rgiht">Edit</a>
+                    <ul *ngFor="let ttt of tt.Children">
+                      <li *ngIf="ttt.Status">
+                        <input type="checkbox" (change)="findSelectedAccount(ttt,$event.target.checked)" [value]="ttt.Id" [checked]="ttt.Checked" >
+                        <span id="displayHeadDiv"
+                          (click)="selectedNode(ttt)">{{ttt.Name}}</span>
+                        <a style="float: right;" class="pull-rgiht" (click)="addNewAccount('add',ttt)">Add</a>
+                        <a style="margin-right: 10px;float: right;" (click)="addNewAccount('edit',ttt)"
+                          class="pull-rgiht">Edit</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

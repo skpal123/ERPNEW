@@ -1,0 +1,107 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Supplier entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+        </h5>
+      </div>
+      <div class="panel-body"> 
+        <form #supplierForm="ngForm">
+              <div class="form-group row" *ngIf="supplierValidation[0]?.SupplierId" [class.has-success]="SupplierIdControl.valid&&SupplierIdControl.touched" [class.has-error]="SupplierIdControl.invalid&&SupplierIdControl.touched">
+                  <label for="SupplierId" class="col-sm-4 col-form-label control-label" [class.required]="SupplierIdControl.invalid" >Supplier Id</label>
+                  <div class="col-sm-6" >
+                      <input class="form-control" [readonly]="supplierValidation[3]?.SupplierId" [required]="supplierValidation[0]?.SupplierId&&supplierValidation[1]?.SupplierId"  name="SupplierId" #SupplierIdControl="ngModel" id="SupplierId" [(ngModel)]="supplier.SupplierId">
+                      <span class="help-block" *ngIf="SupplierIdControl.invalid&&SupplierIdControl.touched">
+                        Supplier Id feild is required
+                      </span>  
+                  </div>
+                  <div class="col-sm-2">
+                    <app-autocode-generate
+                    [itemName]="itemName"
+                    [IsAutoCode]="IsAutoCode"
+                    (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+                    >
+                  </app-autocode-generate>
+                  </div>
+              </div>
+              <div class="form-group row" [class.has-success]="SupplierNameControl.valid&&SupplierNameControl.touched" [class.has-error]="SupplierNameControl.invalid&&SupplierNameControl.touched">
+                  <label for="SupplierName" class="col-sm-4 col-form-label control-label" [class.required]="SupplierNameControl.invalid">Supplier Name</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="supplierValidation[0]?.SupplierName&&supplierValidation[1]?.SupplierName"  name="SupplierName" #SupplierNameControl="ngModel" id="SupplierName" [(ngModel)]="supplier.SupplierName">
+                      <span class="help-block" *ngIf="SupplierNameControl.invalid&&SupplierNameControl.touched">
+                        Supplier name feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="ContactPersonControl.valid&&ContactPersonControl.touched" [class.has-error]="ContactPersonControl.invalid&&ContactPersonControl.touched">
+                  <label for="ContactPerson" class="col-sm-4 col-form-label control-label" [class.required]="ContactPersonControl.invalid">Contact Person</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="supplierValidation[0]?.ContactPerson&&supplierValidation[1]?.ContactPerson"  name="ContactPerson" #ContactPersonControl="ngModel" id="ContactPerson" [(ngModel)]="supplier.ContactPerson">
+                      <span class="help-block" *ngIf="ContactPersonControl.invalid&&ContactPersonControl.touched">
+                        Contact Person feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="EmailControl.valid&&EmailControl.touched" [class.has-error]="EmailControl.invalid&&EmailControl.touched">
+                  <label for="Email" class="col-sm-4 col-form-label control-label" [class.required]="EmailControl.invalid">Email</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="supplierValidation[0]?.Email&&supplierValidation[1]?.Email"  name="Email" #EmailControl="ngModel" id="Email" [(ngModel)]="supplier.Email">
+                      <span class="help-block" *ngIf="EmailControl.invalid&&EmailControl.touched">
+                        Email feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="PhoneNoControl.valid&&PhoneNoControl.touched" [class.has-error]="PhoneNoControl.invalid&&PhoneNoControl.touched">
+                  <label for="PhoneNo"  class="col-sm-4 col-form-label control-label" [class.required]="PhoneNoControl.invalid">Phone no</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="supplierValidation[0]?.PhoneNo&&supplierValidation[1]?.PhoneNo"   name="PhoneNo" #PhoneNoControl="ngModel" id="PhoneNo" [(ngModel)]="supplier.PhoneNo">
+                      <span class="help-block" *ngIf="PhoneNoControl.invalid&&PhoneNoControl.touched">
+                        Phone no feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="AddressControl.valid&&AddressControl.touched" [class.has-error]="AddressControl.invalid&&AddressControl.touched">
+                  <label for="Address" class="col-sm-4 col-form-label control-label" [class.required]="AddressControl.invalid">Address</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" [required]="supplierValidation[0]?.Address&&supplierValidation[1]?.Address" name="Address" #AddressControl="ngModel" id="Address" [(ngModel)]="supplier.Address">
+                      <span class="help-block" *ngIf="AddressControl.invalid&&AddressControl.touched">
+                        Address feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row" [class.has-success]="ledgerIdControl.valid&&ledgerTouch" [class.has-error]="ledgerIdControl.invalid&&ledgerTouch">
+                  <label for="ledgerId" class="col-sm-4 col-form-label control-label" [class.required]="ledgerIdControl.invalid">Ledger Name</label>
+                  <div class="col-sm-7" >
+                    <input style="display: none;" class="form-control" [required]="supplierValidation[0]?.Ledger_Id&&supplierValidation[1]?.Ledger_Id"   name="ledgerIdControl" #ledgerIdControl="ngModel" [(ngModel)]="supplier.Ledger_Id">
+                    <app-ledger-dropdown 
+                     [allLedger]="allLedger"
+                     (ledgerOnItemSelect)="ledgerOnSeletedItem($event)" 
+                     [ledgerSelectedItems]="ledgerSelectedItems">
+                    </app-ledger-dropdown> 
+                     <span class="help-block" *ngIf="ledgerIdControl.invalid&&ledgerTouch">
+                        Ledger name is required
+                    </span> 
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="subledgerId" class="col-sm-4 col-form-label control-label" >Subledger Name</label>
+                  <div class="col-sm-7" >
+                     <app-subledger-dropdown 
+                     [ledgerId]="supplier.Ledger_Id" 
+                     (subledgerOnItemSelect)="subledgerOnSeletedItem($event)" 
+                     [subledgerSelectedItems]="subledgerSelectedItems">
+                    </app-subledger-dropdown> 
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="supplierForm.invalid" (click)="saveSupplier()" value="Save" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

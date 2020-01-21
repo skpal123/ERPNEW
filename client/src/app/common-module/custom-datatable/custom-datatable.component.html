@@ -1,0 +1,77 @@
+<div class="row">
+    <div class="col-md-4 pull-left" style="margin-bottom: 5px">
+      <div class="form-group row">
+          <label class="col-md-3" for="">Show</label>
+          <div class="col-md-5">
+              <select #showEntriesControl="ngModel" (change)="changeShowEntric()" class="form-control" [(ngModel)]="showEntries">
+                  <option value="5">5</option>
+                  <option value="10">10</option>
+                  <option value="25">25</option> 
+                  <option value="50">50</option>
+                </select>
+          </div>
+          <label class="col-md-4" for="">entries</label>
+      </div>
+    </div>
+    <div class="clo-md-4" *ngIf="enableSaveButton">
+      <input type="button" value="Save new order" class="btn btn-success" (click)="saveNewOrder()">
+    </div>
+    <div class="col-md-3 pull-right" style="margin-bottom: 5px">
+        <input type="text" class="for" placeholder="Search" class="form-control" #globalSearch="ngModel" [(ngModel)]="searchTerm">
+    </div>
+</div>
+<div>
+  <table cdkDropList cdkDropListOrientation="horizontal" (cdkDropListDropped)="drop($event)"  class="table table-bordered">
+    <tr>
+      <td style="text-align: center" (click)="sortColumn(column.Name)" cdkDrag *ngFor="let column of ColumnList;let i=index;" class="example-box">
+        <span *ngIf="column.IsEnable&&column.Name!='Status'">{{column.LabelName}}</span>
+        <i *ngIf="IsAscendingOrder" class="fas fa-arrow-down" style="float: left"></i>
+        <i *ngIf="!IsAscendingOrder" class="fas fa-arrow-up" style="float: left"></i>
+        <span *ngIf="column.IsEnable&&column.Name=='Status'"><input (change)="checkedAllItem($event)"
+            type="checkbox">Checked all</span>
+      </td>
+    </tr>
+    <tr *ngFor="let a of pagedItems;let i=index;" id="pointer">
+      <td *ngFor="let b of ColumnList; let j=index;" style="text-align: center">  
+        <div *ngIf="b.IsEnable&&b.Editable">
+            <input *ngIf="b.Type=='text'" [readonly]="b.IsReadOnly" class="form-control" type="number" [(ngModel)]="pagedItems[i][b.Name]">
+            <input type="checkbox" (click)="checkboxClick(b.Name,a,$event)" *ngIf="b.Type=='checkbox'" [(ngModel)]="pagedItems[i][b.Name]">
+            <input type="button" class="btn-success" *ngIf="b.Type=='custom-btn'" (click)="btnClicked(b.Name,a)" value="{{pagedItems[i][b.Name]}}">
+        </div>
+        <div *ngIf="b.IsEnable&&!b.Editable">
+            <span *ngIf="b.IsEnable&&b.Name!='Status'&&b.Type!='date'">{{pagedItems[i][b.Name]}}</span>
+            <span *ngIf="b.IsEnable&&b.Name!='Status'&&b.Type=='date'">{{pagedItems[i][b.Name]|date}}</span>
+            <input id="pointer" type="checkbox" *ngIf="b.IsEnable&&b.Name=='Status'" [(ngModel)]="pagedItems[i][b.Name]">
+            <span id="pointer" title="Edit" *ngIf="b.IsEnable&&b.Name=='Edit'" (click)="getRowDetailsById(a)"><img
+              src="./assets/Img/edit.jpg" height="30px" width="30px"></span>
+          <span id="pointer" title="Delete" *ngIf="b.IsEnable&&b.Name=='Delete'" (click)="deleteRow(a)"><img
+              src="./assets/Img/delete.png" height="30px" width="30px"></span>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="row pull-left">
+ <div class="col-md-12">
+   <label>Showing {{totalshownFromItem}} to {{totalshownToItem}} of {{totalItem}}</label>
+ </div> 
+</div>
+<div class="row pull-right" style="margin-top: -10px">
+  <ul class="pagination" *ngIf="pager.pages && pager.pages.length">
+    <li [ngClass]="{disabled:pager.currentPage === 1}">
+      <a (click)="setPage(1)">First</a>
+    </li>
+    <li [ngClass]="{disabled:pager.currentPage === 1}">
+      <a (click)="setPage(pager.currentPage - 1)">Previous</a>
+    </li>
+    <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+      <a (click)="setPage(page)">{{page}}</a>
+    </li>
+    <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+      <a (click)="setPage(pager.currentPage + 1)">Next</a>
+    </li>
+    <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+      <a (click)="setPage(pager.totalPages)">Last</a>
+    </li>
+  </ul>
+</div>

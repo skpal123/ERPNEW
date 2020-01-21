@@ -1,0 +1,92 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Sub Grade entry
+            <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+            <span (click)="controlGroupItemForm()" title="view from control" class="pointer pull-left"><img height="30px" width="30px" src="./assets/Img/settings.png"></span>
+        </h5>
+      </div>
+      <div class="panel-body">
+        <form #subgradeForm="ngForm">
+            <div class="form-group row" *ngIf="subgradeValidation[0]?.Grade_Id" [class.has-success]="GradeIdControl.valid" [class.has-error]="GradeIdControl.invalid&&gradeTouch">
+                <label for="gradeId" class="col-sm-3 col-form-label control-label" [class.required]="GradeIdControl.invalid">Grade Name</label>
+                <input style="display: none;" [required]="subgradeValidation[0]?.Grade_Id&&subgradeValidation[1]?.Grade_Id" 
+                type="text" name="GradeId" #GradeIdControl="ngModel" [(ngModel)]="subgrade.Grade_Id">
+                <div class="col-sm-8" >
+                   <app-grade-dropdown 
+                   (gradeOnItemSelect)="OnSeletedItem($event)" 
+                   (gradeOnItemDeSelect)="OnDeSeletedItem($event)" 
+                   [IsNewGradeAdd]="gradeNew"
+                   [gradeSelectedItems]="gradeSelectedItems">
+                  </app-grade-dropdown>
+                  <span class="help-block" *ngIf="GradeIdControl.invalid&&gradeTouch">
+                    Grade id feild is required
+                 </span>  
+                </div>
+                <div class="col-sm-1">
+                  <span class="pull-right" (click)="createNewGrade()" id="pointer">
+                     <img height="30px" width="30px" src="./assets/Img/addicon.png">
+                  </span>
+                </div>
+              </div>
+              <div class="form-group row" *ngIf="subgradeValidation[0]?.SubGradeId" [class.has-success]="subgradeIdControl.valid&&subgradeIdControl.touched" [ngClass]="{'has-error':subgradeIdControl.invalid&&subgradeIdControl.touched}">
+                  <label for="gradeId" class="col-sm-3 col-form-label control-label" [class.required]="subgradeIdControl.invalid">Sub grade id</label>
+                  <div class="col-sm-7" >
+                      <input class="form-control" subgradeCheck [required]="subgradeValidation[0]?.SubGradeId&&subgradeValidation[1]?.SubGradeId" name="SubGradeId" #subgradeIdControl="ngModel" id="SubGradeId" [(ngModel)]="subgrade.SubGradeId">
+                      <span class="help-block" *ngIf="subgradeIdControl.errors?.required&&subgradeIdControl.touched">
+                          Sub Grade id feild is required
+                      </span>
+                      <span class="help-block" *ngIf="subgradeIdControl.errors?.exists&&subgradeIdControl.touched">
+                          Sub grade id already taken
+                      </span>    
+                  </div>
+                  <div class="col-md-2"> 
+                    <app-autocode-generate
+                    [itemName]="itemName"
+                    [IsAutoCode]="IsAutoCode" 
+                    (getGenerateAutoCode)="parentGetGeneratedCode($event)"
+                    >
+                    </app-autocode-generate>
+                  </div>
+                </div>
+              <div class="form-group row"*ngIf="subgradeValidation[0]?.SubGradeName" [class.has-success]="subgradeNameControl.valid&&subgradeNameControl.touched" [class.has-error]="subgradeNameControl.invalid&&subgradeNameControl.touched">
+                  <label for="subGradeName" class="col-sm-3 col-form-label control-label" [class.required]="subgradeNameControl.invalid">Sub grade Name</label>
+                  <div class="col-sm-9" >
+                      <input class="form-control" [required]="subgradeValidation[0]?.SubGradeName&&subgradeValidation[1]?.SubGradeName" name="subGradeName" #subgradeNameControl="ngModel" id="subGradeName" [(ngModel)]="subgrade.SubGradeName">
+                      <span class="help-block" *ngIf="subgradeNameControl.invalid&&subgradeNameControl.touched">
+                          Sub grade name feild is required
+                      </span>  
+                  </div>
+                </div>
+                <div class="form-group row"*ngIf="subgradeValidation[0]?.EeectiveDate" [class.has-success]="eeectiveDateControl.valid&&eeectiveDateControl.touched" [class.has-error]="eeectiveDateControl.invalid&&eeectiveDateControl.touched">
+                  <label for="EeectiveDate" class="col-sm-3 col-form-label control-label" [class.required]="eeectiveDateControl.invalid">Effective Date</label>
+                  <div class="col-sm-9" >
+                      <div class="row">
+                          <div class="col-md-10">
+                              <input style="margin-right: 0px" class="form-control" [required]="subgradeValidation[0]?.EeectiveDate&&subgradeValidation[1]?.EeectiveDate" name="EeectiveDate"  #eeectiveDateControl="ngModel" id="EeectiveDate" [(ngModel)]="subgrade.EeectiveDate" matInput [matDatepicker]="myDatepicker">
+                          </div>
+                          <div style="margin-left: opx" class="col-md-2">
+                              <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+                              <mat-datepicker #myDatepicker [startAt]="startDate"> </mat-datepicker>
+                          </div>
+                        </div>
+                      <span class="help-block" *ngIf="eeectiveDateControl.invalid&&eeectiveDateControl.touched">
+                         Effective date is required
+                      </span>  
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="subgradeForm.invalid" (click)="saveSubGrade()" value="{{subgrade.Id==null?'Save':'Update'}}" class="btn btn-primary">
+                </div>
+                <div class="col-md-2 pull-right">
+                  <input type="button" [disabled]="!subgradeForm.dirty" (click)="clearSubGrade()" value="Clear" class="btn btn-primary">
+                </div>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h5> Grade salary item
+          <button type="button" class="btn btn-danger btn-sm pull-right" (click)="onNoClick()">&times;</button>
+          <app-custom-datatable-control-settings [userControlList]="userControlList"></app-custom-datatable-control-settings>
+        </h5>
+      </div>
+      <div class="panel-body">
+       <form #gradeSubGradeForm="ngForm">
+        <div *ngIf="gradeSubGradeSalItemDetails&&gradeSubGradeSalItemDetails.GradeName!=null" class="form-group row">
+          <label for="LeaveTypeName" class="col-sm-3 col-form-label control-label">Grade Name</label>
+          <div class="col-sm-9">
+            <input class="form-control" type="text" [value]="gradeSubGradeSalItemDetails.GradeName">
+          </div>
+        </div>
+        <div *ngIf="gradeSubGradeSalItemDetails&&gradeSubGradeSalItemDetails.SubGradeName!=null" class="form-group row">
+          <label for="LeaveTypeName" class="col-sm-3 col-form-label control-label">Sub Grade Name</label>
+          <div class="col-sm-9">
+            <input class="form-control" type="text" [value]="gradeSubGradeSalItemDetails.SubGradeName">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+              <app-dynamic-table-entry [ColumnList]="ColumnList" [Datalist]="DataList"
+                [AutoCompleteDataSource]="autoCompleteData"
+                (AutoCompleteDataSourceClicked)="ParentAutoCompleteDataSource($event)"
+                (GetDatatableColumnTextClicked)="GetDatatableColumnTextClicked($event)"
+                (AutoCompleteNewEntry)="autoCompleteNewEntry($event)"
+                (AddNewRow)="addNewRow()"
+                (DeleteDataRowClicked)="deleteVoucherDetailsRow($event)">
+              </app-dynamic-table-entry>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 pull-right">
+            <input type="button" [disabled]="gradeSubGradeForm.invalid" (click)="saveGradeSubGradeSalaryItem()" value="Save" class="btn btn-primary">
+          </div>
+          <div class="col-md-2 pull-right">
+            <input type="button" [disabled]="!gradeSubGradeForm.dirty" (click)="clearGradeSubGradeSalaryItem()" value="Clear" class="btn btn-primary">
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>

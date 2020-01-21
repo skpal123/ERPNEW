@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css'; 
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+/* .navbar-nav > li > a, .navbar-brand {padding-top:8px !important; padding-bottom:0 !important; height: 40px; } .navbar {min-height:30px !important;} */
+
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+#pointer{
+    cursor: pointer;
+}
+.pointer{
+  cursor: pointer;
+}
+
+#navigation-menu{
+    background-color: bisque
+}
+
+  @keyframes loading-children {
+    0%    { color: #f3e5f5; }
+    12.5% { color: #e1bee7; }
+    25%   { color: #ce93d8; }
+    37.5% { color: #ba68c8; }
+    50%   { color: #ab47bc; }
+    62.5% { color: #9c27b0; }
+    75%   { color: #8e24aa; }
+    87.5% { color: #7b1fa2; }
+    100%  { color: #6a1b9a; }
+  }
+
+.required{
+  color: #a94442
+}
+/* multi select dropdown style override */
+.c-btn{
+  border: #a94442
+}
+.form-control{
+  height: 28px;
+  position: relative;
+}
+.completer-holder{
+  margin-top: -2px;
+  width: 100%;;
+  /* position: absolute; */
+  margin-left: -10px;
+  padding: 0px;
+}
+.completer-holder input{
+  width: auto
+}
+.cuppa-dropdown .selected-list span{
+  margin-top: -7px;
+}
+select{
+  margin-top: -2px;
+}
+ 
+.row{
+  margin-bottom: 3px;
+  margin-top: 2px;
+}
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}

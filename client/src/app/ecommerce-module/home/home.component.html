@@ -1,0 +1,203 @@
+<div class="row">
+  <div class="col-md-3">
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Start Bootstrap </div>
+      <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action bg-light">Dashboard</a>
+        <a class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+        <a class="list-group-item list-group-item-action bg-light">Overview</a>
+        <a class="list-group-item list-group-item-action bg-light">Events</a>
+        <a class="list-group-item list-group-item-action bg-light">Profile</a>
+        <a class="list-group-item list-group-item-action bg-light">Status</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-9">
+    <div class="row"> 
+      <div class="col-md-3">
+        <div class="well">
+          <div class="single-property">
+            <div class="content"  id="parent">
+              <a class="container2">
+                <div class="content-overlay" id="overlay">
+                  <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Test</h3>
+                  </div>
+                </div>
+                <img class="content-image img-responsive img-thumbnail" style="width: 100%; height: 220px ;"
+                  src="./assets/Img/download.jpg" alt="">
+              </a>
+            </div>
+            <span>For Sale</span>
+            <div class="row">
+              <div class="col-md-6">
+                <h4> € 500</h4>
+                <div class="middle">
+                  <div class="d-flex justify-content-start">
+                    <p>Bed: </p>
+                    <p>Bath:</p>
+                    <p>Area: sqm</p>
+                    <p>Energy rating: </p>
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li>fea.Name</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="well"id="parent">
+          <div id="overlay" (click)="off()">
+            test
+          </div>
+            
+            <div style="padding:20px" class="overlay-content">
+              <h2>Overlay</h2>
+              <p id="test">Add an overlay effect to the page content (100% width and height with a black background color with 50% opacity).</p>
+              <button (click)="on()">Turn on overlay effect</button>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="well">
+          <div class="single-property">
+            <div class="content">
+              <a>
+                <div class="content-overlay"></div>
+                <img class="content-image img-responsive img-thumbnail" style="width: 100%; height: 220px ;"
+                  src="./assets/Img/download.jpg" alt="">
+                <div class="content-details fadeIn-bottom" style="background-color: dimgrey">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <input type="button" value="cl" class="pull-left" (click)="clickPlusBtn()">
+                    </div>
+                    <div class="col-md-4">
+                      <h3 class="content-title">{{totalItem}}</h3>
+                    </div>
+                    <div class="col-md-4">
+                       <span class="oi" data-glyph="plus"></span>
+                       <span class="oi" data-glyph="plus"></span>
+                      <input type="button" class="pull-right" value="cl" (click)="clickMinusBtn()">
+                    </div>
+                  </div>
+
+                </div>
+              </a>
+            </div>
+            <span>For Sale</span>
+            <div class="row">
+              <div class="col-md-6">
+                <h4> € 500</h4>
+                <div class="middle">
+                  <div class="d-flex justify-content-start">
+                    <p>Bed: </p>
+                    <p>Bath:</p>
+                    <p>Area: sqm</p>
+                    <p>Energy rating: </p>
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li>fea.Name</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="item-inner product-item-info" data-container="product-grid">
+          <div class="image-container">
+            <a href="https://robishop.com.bd/oneplus-6t-6-128gb-mirror-black.html"
+              class="product photo product-item-photo magekey-sticker-relative" tabindex="-1" rel="existed">
+              <span class="product-image-container" style="width:176px;">
+                <span class="product-image-wrapper" style="padding-bottom: 100%;">
+                  <img class="product-image-photo"
+                    src="https://robishop.com.bd/pub/media/catalog/product/cache/small_image/176x176/beff4985b56e3afdbeabfc89641a4582/o/n/oneplus_6t_6gb_mirrorblk.jpg"
+                    width="176" height="176" alt="OnePlus 6T 6/128GB"></span>
+              </span>
+
+              <div class="floating vertical magekey-product-stickers top-left">
+                <span class="product-sticker">
+                  <img src="https://robishop.com.bd/pub/media/stickers/12_EMI_STICKER.png" alt="12 EMI">
+                </span>
+              </div>
+              <div class="sold-out-sticker product-sticker">
+                <span class="robi-out-of-stock"> SOLD OUT</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="des product details product-item-details">
+            <div class="product-name">
+              <strong class="product-item-name">
+                <a class="product-item-link" href="https://robishop.com.bd/oneplus-6t-6-128gb-mirror-black.html">
+                  OnePlus 6T 6/128GB </a>
+              </strong>
+
+            </div>
+            <div class="swatch-opt-1853"></div>
+
+            <div class="price-box price-final_price" data-role="priceBox" data-product-id="1853">
+              <span class="special-price">
+                <span class="special-price">
+                  <span class="price-container price-final_price tax weee" itemprop="offers" itemscope=""
+                    itemtype="http://schema.org/Offer">
+                    <span class="price-label">Special Price</span>
+                    <span class="price-wrapper" itemprop="price">
+                      <span class="price">
+                        ৳62,990.00 </span>
+                    </span>
+                    <meta itemprop="priceCurrency" content="BDT">
+                  </span>
+                </span>
+              </span>
+              <span class="old-price sly-old-price">
+                <span class="old-price">
+                  <span class="price-container price-final_price tax weee">
+                    <span class="price-label">Regular Price</span>
+                    <span data-price-type="agentBuyingPrice" class="price-wrapper ">
+                      <span id="new-agent-buy-price-1853" class="price">
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+
+            </div>
+
+            <!-- Price Countdown Box -->
+
+          </div>
+          <div class="actions"><button type="button" class="btn-quickview" title="QuickView" value="Quick View"><i
+                class="fa fa-search-plus" aria-hidden="true"></i></button>
+            <div class="actions-primary">
+              <div class="stock unavailable"><span>Out of stock</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <table border="1px solid black">
+    <th></th><th *ngFor="let tag of pointOfInterests;">{{tag.Name}}</th>
+    <tr *ngFor="let a of propertyTags;let i=index;">
+      <td>{{a.Name}}</td>
+        <td *ngFor="let b of pointOfInterests; let j=index;">
+           <input type="text" [(ngModel)]="p[i][j].value">
+        </td>
+      </tr>
+</table>
+<input type="button" value="Submit" (click)="save()">
+
+
+</div>
